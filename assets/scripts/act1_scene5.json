@@ -1,0 +1,220 @@
+[
+  {
+    "type": "bg",
+    "file": "classroom"
+  },
+  {
+    "type": "music",
+    "file": "clubroom_normal"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "A week passes. You go to classes. You eat lunch alone twice, then with Grubwin once, which was quiet but fine. He mostly read. You mostly read. You both pretended not to be grateful for the company."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "On Wednesday, Vermia left a folded note in your shoe locker. It said: 'SCATHA WATCH: 3 signs this week!! 1) earthworm on north sidewalk 2) soil smell in hallway 3) YOU (still a sign)'. Signed with a small worm drawing."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "On Thursday, Dirtus found you in the hall and showed you slide four of the Summoning Proposal without any preamble. Slide four was titled 'THE WORM MOON WINDOW: OPTIMAL DATES'. You didn't know what a worm moon was. He explained for eleven minutes."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "It is now Friday. Second club meeting. You are, against all reasonable expectation, looking forward to it."
+  },
+  {
+    "type": "bg",
+    "file": "clubroom_day"
+  },
+  {
+    "type": "music",
+    "file": "clubroom_normal"
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "normal",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "smug",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "She's not here yet. She texted saying she has an 'important spiritual preparation' to do first. I've learned not to ask."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "She spent forty minutes organizing the sacred bookshelf by 'worm energy density'. I know because she called me about it."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "At what time?"
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Seven AM."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "I'm sorry."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "It's fine. I was already awake. I don't sleep that well."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "A small silence. There's something in how she said that — matter-of-fact, not fishing for sympathy. You file it away."
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "blessed",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "FRIENDS. I have had a vision."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Good morning to you too."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I was reorganizing the shelf — don't ask, Mawla knows — and I found a poem I wrote in year one. In the back of an old journal. And I think Scatha wanted me to find it today. For [player]."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Because it's about joining something you don't understand and finding it becomes part of you anyway. And that's— that's new member energy. That's the beginning energy."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "She reads it aloud. It's short — six lines. Her voice is different when she reads her own poetry. Quieter. Like the performance switches off."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "'Beneath the word, beneath the name / A worm turns slow, and turns the same / I did not know what I was seeking / Only that the ground was speaking / And so I pressed my ear to earth / And called what I found there — worth.'"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Silence."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "That one's really good, Vermia."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I know."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I cried a little when I found it."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "You cry at everything."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "That's because I feel things FULLY, Grubwin."
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "triumphant",
+    "pos": "center",
+    "visible": false
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The door opens. Dirtus enters carrying a paper bag that clinks slightly."
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "triumphant",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "I have acquired the ceremonial worm bait."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Why does it clink?"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "I put it in a jar. For dignity."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "You put worm bait in a jar for dignity."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "A nice jar. From a candle. I cleaned it."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "He holds it up. It is indeed a nice jar — amber glass, slightly fancy. You respect the commitment even as you question everything."
+  },
+  {
+    "type": "choice",
+    "options": [
+      {
+        "label": "Ask Vermia about writing her first poem",
+        "jump": "act1_scene5b_vermia"
+      },
+      {
+        "label": "Ask Dirtus when exactly he plans to do the summoning",
+        "jump": "act1_scene5b_dirtus"
+      },
+      {
+        "label": "Ask Grubwin how he ended up here",
+        "jump": "act1_scene5b_grubwin"
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  { "type": "bg",    "file": "clubroom_sunset" },
+  { "type": "music", "file": "clubroom_normal" },
+
+  { "type": "char", "name": "Vermia",  "expr": "happy",   "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "normal",  "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",  "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "normal",  "pos": "center", "visible": false },
+
+  { "type": "line", "speaker": null,
+    "text": "The afternoon light has gone golden. Dirtus left ten minutes ago claiming he needed to 'acquire materials' — no one asked for clarification. Outside the window, the school is emptying." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Before we close today's meeting — [player], I want to formally welcome you. You survived your first session, which is more than can be said for a few others." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Two people left during the Grand Hymn in year one." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "They weren't ready. That's okay. Scatha is patient." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "You held up fine. The poem you wrote was good actually." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "You read it?" },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "Vermia read them all. I might have glanced." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "It was INSPIRED. The line about — oh, I don't want to quote it in front of everyone on your first day, it would embarrass you. But I thought it." },
+
+  { "type": "line", "speaker": null,
+    "text": "You don't remember writing anything that good. You literally just wrote whatever came out. You're slightly worried about what that says about you." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Same time next week? And [player] — fair warning. It escalates." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "What escalates?" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Everything." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "He means the SPIRITUAL JOURNEY. It deepens. Every week. Every poem. You'll see." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "He means Dirtus is going to try to do the summoning at some point and it's going to be a whole thing." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That too." },
+
+  { "type": "line", "speaker": null,
+    "text": "You walk home in the early evening. The sky is the color of something almost sacred — you don't have a word for it yet. You open your phone and look up 'Scatha Hypixel Skyblock'." },
+
+  { "type": "line", "speaker": null,
+    "text": "You scroll for a while. You close the tab. You open it again." },
+
+  { "type": "line", "speaker": null,
+    "text": "You'll figure out what that means later." },
+
+  { "type": "jump", "scene": "act1_scene5" }
+]

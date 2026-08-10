@@ -1,0 +1,121 @@
+[
+  {
+    "type": "bg",
+    "file": "underground"
+  },
+  {
+    "type": "music",
+    "file": "scatha_theme"
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "triumphant",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "surprised",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "nervous",
+    "pos": "left",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Le lieu."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "C'est, vraiment, une trouvaille remarquable. Une serre abandonnée en bordure du terrain scolaire — plafond de verre, la plupart des vitres intactes, sol de terre nue, de vieux canaux d'irrigation formant des anneaux concentriques naturels autour d'un espace central dégagé. On dirait qu'elle a été construite pour un Scathagramme."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "OBSERVEZ."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "...Dirtus."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "Les anneaux. Le sol de terre. Le plafond de verre pour que la lune passe directement. C'est parfait."
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "nervous",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "C'est vraiment incroyable. Je déteste que ce soit incroyable."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Où tu as trouvé ça ?"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "J'ai demandé au jardinier. Il a dit qu'elle n'était plus utilisée depuis quinze ans. Il a dit qu'on pouvait l'utiliser pour les activités du club si on ne cassait rien."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Tu lui as juste demandé ?"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "J'ai préparé une brève présentation. Seulement quatre diapositives cette fois."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Il a dit oui à quatre diapositives."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "Il semblait intéressé par l'aspect ver. C'est un jardinier. Il y avait une connexion naturelle."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Tu te tiens au centre des anneaux de terre concentriques. La lumière passe à travers le verre en longs rayons de fin d'après-midi. C'est, vraiment, parfait."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "La semaine prochaine : l'Événement de Convergence Totale."
+  },
+  {
+    "type": "actcard",
+    "title": "Acte III",
+    "subtitle": "~ Quelque Chose a Changé ~",
+    "next": "act3_scene1"
+  }
+]

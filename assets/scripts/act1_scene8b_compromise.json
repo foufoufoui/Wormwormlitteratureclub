@@ -1,0 +1,30 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "I'm not comfortable with the trespassing. But — what about the rooftop? It's technically still school property but it's not restricted the same way." },
+
+  { "type": "line", "speaker": null,
+    "text": "Silence. Everyone thinks about this." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "The rooftop is actually HIGHER than the tunnel. Closer to the moon. That's... that's better, actually." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "The rooftop door is usually unlocked from the inside during the evening janitorial round." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "How do you know that." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I go up there to think sometimes." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "GRUBWIN. You've been communing with Scatha and never told me—" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I've been sitting on a roof to be alone, it's different." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "[player] you've solved it. Rooftop summoning. Slide eight needs minor revisions." },
+
+  { "type": "jump", "scene": "act1_scene9" }
+]

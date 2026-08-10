@@ -1,0 +1,27 @@
+[
+  { "type": "bg",    "file": "clubroom_sunset" },
+  { "type": "music", "file": "poem_writing" },
+  { "type": "char", "name": "Dirtus",  "expr": "triumphant", "pos": "center", "visible": true },
+  { "type": "char", "name": "Vermia",  "expr": "blessed",    "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "surprised",  "pos": "left",   "visible": false },
+  { "type": "char", "name": "Mawla",   "expr": "normal",     "pos": "right",  "visible": true },
+
+  { "type": "line", "speaker": null, "text": "After you finish and place your poem on the stack, Dirtus reads all four in sequence. His voice changes when he reads other people's words — slower, careful." },
+  { "type": "line", "speaker": null, "text": "Then he adds his own. His poem is the longest. It's about what a herald does when the king hasn't arrived yet: you keep announcing anyway. You trust the arrival is coming. You make the announcement so good that when the king shows up, they feel welcomed." },
+  { "type": "line", "speaker": "Vermia", "text": "Dirtus. That was—" },
+  { "type": "line", "speaker": "Dirtus", "text": "Week one complete. Four more." },
+  { "type": "line", "speaker": "Vermia", "text": "That was beautiful." },
+  { "type": "line", "speaker": "Dirtus", "text": "Thank you. I've been practicing." },
+
+  { "type": "char", "name": "Grubwin", "expr": "thinking", "pos": "left", "visible": true },
+
+  { "type": "line", "speaker": "Grubwin", "text": "I want to say something." },
+  { "type": "line", "speaker": "Grubwin", "text": "I've been here two years and I've never — we've never done anything like this. All four weeks at once. All five of us. Together." },
+  { "type": "line", "speaker": "Grubwin", "text": "I don't know if Scatha is real. I still don't know. But I know this is real." },
+  { "type": "line", "speaker": null, "text": "He gestures at the stack of five poems." },
+  { "type": "line", "speaker": "Grubwin", "text": "This is real." },
+  { "type": "line", "speaker": null, "text": "Nobody says anything for a moment. Then Vermia nods, very seriously." },
+  { "type": "line", "speaker": "Vermia", "text": "Yes. That's exactly right." },
+
+  { "type": "jump", "scene": "act2_scene7" }
+]

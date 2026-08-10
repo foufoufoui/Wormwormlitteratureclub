@@ -1,0 +1,31 @@
+[
+  { "type": "bg", "file": "hallway" },
+  { "type": "music", "file": "clubroom_normal" },
+  { "type": "line", "speaker": null, "text": "Premier jour dans un nouveau lycée. Tu es là depuis exactement quatre heures, tu n'as fait aucun ami, tu t'es renversé de l'eau dessus, et tu as d'une façon ou d'une autre accepté de rejoindre un club dont tu n'avais jamais entendu parler." },
+  { "type": "line", "speaker": null, "text": "Ce club s'appelle le Club Littéraire. La littérature ne t'intéresse pas vraiment. Mais la fille qui t'a invité avait un enthousiasme si démesuré que dire non te semblait franchement dangereux." },
+  { "type": "line", "speaker": null, "text": "Tu trouves la porte. Salle 2-B. Une pancarte écrite à la main indique : 'WORM WORM LITERATURE CLUB — TOUS SONT LES BIENVENUS AU NOM DE SCATHA'." },
+  { "type": "line", "speaker": null, "text": "Tu fixes la pancarte un moment. Puis tu ouvres la porte." },
+  { "type": "bg", "file": "clubroom_day" },
+  { "type": "line", "speaker": null, "text": "La salle du club sent la terre et les bougies à la vanille. Une grande affiche d'un ver est accrochée au mur du fond. Le ver porte une couronne. Quelqu'un a dessiné un petit halo au-dessus de sa tête au marqueur doré." },
+  { "type": "line", "speaker": null, "text": "Une étagère longe le mur de gauche — des anthologies de poésie et des journaux faits main avec des titres comme 'Odes au Grand Ver Vol. 4' et 'Mes Sentiments : Un Compagnon de Scatha'." },
+  { "type": "char", "name": "Vermia", "expr": "happy", "pos": "center", "visible": true },
+  { "type": "line", "speaker": "Vermia", "text": "TU ES VENU·E !" },
+  { "type": "line", "speaker": "Vermia", "text": "Je le savais. Scatha me l'a dit. Enfin — Scatha ne me l'a pas dit directement. Je l'ai senti dans mon coude gauche. C'est mon coude spirituel." },
+  { "type": "line", "speaker": null, "text": "Elle traverse déjà la pièce vers toi à une vitesse préoccupante." },
+  { "type": "line", "speaker": "Vermia", "text": "Je suis Vermia ! Grande Poétesse de la Deuxième Mue, Gardienne du Sacré Journal de Rimes, et fondatrice du seul club littéraire de ce lycée qui COMPTE vraiment." },
+  { "type": "line", "speaker": "Vermia", "text": "Enfin — je suis aussi la seule fondatrice. Mais techniquement je l'ai fondé deux fois, parce que la première fois le professeur a dit que ça ne comptait pas puisqu'il fallait quatre membres. Donc voilà." },
+  { "type": "char", "name": "Grubwin", "expr": "nervous", "pos": "left", "visible": true },
+  { "type": "line", "speaker": "Grubwin", "text": "...Salut. Je suis Grubwin. Je tiens à préciser d'emblée que j'ai rejoint le club dans des circonstances différentes de ce que Vermia t'a raconté." },
+  { "type": "line", "speaker": "Vermia", "text": "Je ne leur ai encore rien dit !" },
+  { "type": "line", "speaker": "Grubwin", "text": "C'est en soi assez suspect, en fait." },
+  { "type": "line", "speaker": "Grubwin", "text": "Bref. C'est un club littéraire normal. On écrit des poèmes. On les partage. C'est tout. Le reste, c'est accessoire." },
+  { "type": "line", "speaker": "Vermia", "text": "L'«accessoire», c'est justement LE point, Grubwin." },
+  { "type": "line", "speaker": "Grubwin", "text": "L'«accessoire», c'est une religion centrée sur un être divin issu d'un jeu de blocs." },
+  { "type": "line", "speaker": "Vermia", "text": "SCATHA N'EST PAS UNE FICTION. Il est simplement... pas encore prouvé." },
+  { "type": "line", "speaker": null, "text": "Tu regardes à nouveau l'affiche du ver. Le ver te fixe en retour. Tu ne ressens rien. Et pourtant." },
+  { "type": "choice", "options": [
+    { "label": "Te présenter correctement", "jump": "act1_scene1b_confident" },
+    { "label": "Demander à propos de la pomme de terre bénie", "jump": "act1_scene1b_potato" },
+    { "label": "Continuer à fixer l'affiche du ver", "jump": "act1_scene1b_stare" }
+  ]}
+]

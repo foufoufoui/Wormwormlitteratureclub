@@ -1,0 +1,28 @@
+[
+  { "type": "bg", "file": "clubroom_ritual" },
+  { "type": "music", "file": "scatha_theme" },
+  { "type": "char", "name": "Vermia",  "expr": "preaching", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "normal",    "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "confident", "pos": "center", "visible": false },
+  { "type": "line", "speaker": null, "text": "Acte Quatre. Fin d'année scolaire." },
+  { "type": "line", "speaker": null, "text": "La salle du club a l'air différente maintenant. De nouveaux dessins de vers sur les guirlandes lumineuses. La figurine en argile de Grubwin a été soigneusement époussetée. Quelqu'un a ajouté un petit ver à la collection — pas l'œuvre de Grubwin, personne ne le revendique. Il est apparu." },
+  { "type": "line", "speaker": null, "text": "Tout le monde a des examens qui arrivent. Le monde extérieur performe l'énergie de fin d'année. Ici c'est plus lent et plus certain." },
+  { "type": "line", "speaker": "Vermia",  "text": "Dernière réunion régulière de l'année. Je veux dire quelque chose avant que Dirtus annonce ce qu'il va annoncer." },
+  { "type": "line", "speaker": "Grubwin", "text": "Il y a une annonce." },
+  { "type": "line", "speaker": "Dirtus",  "text": "*de derrière la porte* Je vous entends. J'arrive dans trente secondes." },
+  { "type": "char", "name": "Dirtus", "expr": "confident", "pos": "center", "visible": false },
+  { "type": "line", "speaker": "Vermia",  "text": "Vite alors. Toi — [player]. Tu es venu·e ici sans savoir ce que tout ça était. Et tu es resté·e. Et tu as écrit des poèmes. Et tu as changé ce qu'est cet endroit." },
+  { "type": "line", "speaker": "Vermia",  "text": "J'ai fondé ce club deux fois. Et je pense que c'est cette année qu'il est vraiment devenu réel. Grâce à toi, et au Relais, et à la serre, et au ver, et au deuxième hymne, et à tout ça." },
+  { "type": "line", "speaker": "Grubwin", "text": "D'accord." },
+  { "type": "line", "speaker": "Mawla",   "text": "Oui." },
+  { "type": "line", "speaker": null, "text": "La porte s'ouvre. Dirtus entre. Il a de nouvelles diapositives. Bien sûr." },
+  { "type": "char", "name": "Dirtus", "expr": "triumphant", "pos": "center", "visible": true },
+  { "type": "line", "speaker": "Dirtus",  "text": "PLAN DE CONVERGENCE D'ÉTÉ. Diapositives un à douze." },
+  { "type": "line", "speaker": "Grubwin", "text": "Douze diapositives." },
+  { "type": "line", "speaker": "Dirtus",  "text": "C'est un grand été." },
+  { "type": "choice", "options": [
+    { "label": "Écoutons le plan d'été. Les douze diapositives.", "jump": "act4_ending_true" },
+    { "label": "D'abord — je veux dire quelque chose à tout le monde.", "jump": "act4_scene2" }
+  ]}
+]

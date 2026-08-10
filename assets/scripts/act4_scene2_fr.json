@@ -1,0 +1,15 @@
+[
+  { "type": "music", "file": "clubroom_normal" },
+  { "type": "line", "speaker": "[player]", "text": "Avant les diapositives — je peux dire quelque chose ?" },
+  { "type": "line", "speaker": "Dirtus",   "text": "Bien sûr. Le héraut écoute." },
+  { "type": "line", "speaker": null, "text": "Tout le monde te regarde." },
+  { "type": "line", "speaker": "[player]", "text": "Je suis venu·e ici sans savoir ce que je cherchais. Je ne suis pas sûr·e de le savoir maintenant non plus. Mais je sais que ça — vous tous, les poèmes, le ver, les diagrammes à la craie, les diapositives de Dirtus—" },
+  { "type": "line", "speaker": "[player]", "text": "J'ai posé mon oreille sur la terre et quelque chose a répondu. Même si ce quelque chose était juste cinq personnes décidant de vouloir dire ce qu'elles écrivaient." },
+  { "type": "line", "speaker": "[player]", "text": "C'est suffisant. C'est plus que suffisant." },
+  { "type": "line", "speaker": null, "text": "Silence. Puis Vermia commence à pleurer, ce qui est normal, mais cette fois tout le monde a l'air un peu touché aussi, ce qui l'est moins." },
+  { "type": "line", "speaker": "Dirtus",   "text": "..." },
+  { "type": "line", "speaker": "Dirtus",   "text": "Scatha a entendu ça." },
+  { "type": "line", "speaker": "Grubwin",  "text": "...Ouais." },
+  { "type": "line", "speaker": "Grubwin",  "text": "Peut-être." },
+  { "type": "jump", "scene": "act4_ending_true" }
+]

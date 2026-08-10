@@ -1,0 +1,80 @@
+[
+  { "type": "bg",    "file": "clubroom_day" },
+  { "type": "music", "file": "clubroom_hymn" },
+
+  { "type": "char", "name": "Vermia",  "expr": "blessed",  "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "resigned", "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",   "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "triumphant","pos": "center", "visible": false },
+
+  { "type": "line", "speaker": null,
+    "text": "The Grand Poem Exchange. Vermia has decorated the room with small worm drawings on bits of paper strung between the bookshelves. It somehow looks genuinely lovely." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "OKAY. Rules: you read your poem, the person it's about cannot respond until everyone has finished. Then we have tea and talk. Ready?" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Where did you get tea?" },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I brought a kettle from home. It's in the closet. I've been keeping it here for three months." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "You've had a kettle in the club closet for three months and none of us knew." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "It was for a special occasion! This counts." },
+
+  { "type": "line", "speaker": null,
+    "text": "Dirtus enters, slides under his arm, slightly windswept." },
+
+  { "type": "char", "name": "Dirtus", "expr": "confident", "pos": "center", "visible": true },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I wrote four poems. One for each person. I couldn't narrow it down." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "The exercise was one poem." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I had four observations." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "We'll hear all four. Okay — I'll go first." },
+
+  { "type": "line", "speaker": null,
+    "text": "Vermia's poem is for Mawla. It's about stillness. About how some people are like the deepest soil layer — you can't see what they're holding but you know it's everything. Mawla listens with her eyes forward. She doesn't move." },
+
+  { "type": "line", "speaker": null,
+    "text": "Grubwin's poem is for Vermia. It's about belief — not whether Scatha is real, but about what it means to need something to be real. It's careful and kind and it makes Vermia press her hand to her mouth." },
+
+  { "type": "line", "speaker": null,
+    "text": "Dirtus reads four poems. They range from surprisingly moving (Vermia's) to entirely about how Grubwin's clipboard is a metaphor for emotional distance (accurate, apparently) to yours, which is—" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Yours is about potential. About someone who showed up not knowing what they were walking into and had the right kind of open eyes. I think Scatha sent you here specifically." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "...Thank you, Dirtus." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "You're welcome. Also I've added you to the summoning roster. Hope that's okay." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "There's a summoning roster." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Slide seven." },
+
+  { "type": "line", "speaker": null,
+    "text": "Then it is your turn. Everyone is quiet." },
+
+  { "type": "line", "speaker": null,
+    "text": "You wrote your poem about one person this week. You knew from the moment the assignment was given. You hold the paper and you read it." },
+
+  { "type": "choice", "options": [
+    { "label": "My poem is about Vermia", "jump": "act1_scene7b_vermia" },
+    { "label": "My poem is about Grubwin", "jump": "act1_scene7b_grubwin" },
+    { "label": "My poem is about Mawla",  "jump": "act1_scene7b_mawla"  }
+  ]}
+]

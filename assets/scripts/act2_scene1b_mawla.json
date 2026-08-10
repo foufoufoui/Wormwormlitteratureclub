@@ -1,0 +1,15 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "Mawla — did something change for you that night? At the park?" },
+  { "type": "line", "speaker": "Mawla",
+    "text": "..." },
+  { "type": "line", "speaker": "Mawla",
+    "text": "I've been coming here eight months. I always said I was here for the writing, not the religion. That night — I don't know. It's hard to stand in a park singing a hymn under a full moon and maintain complete ironic detachment." },
+  { "type": "line", "speaker": "[player]",
+    "text": "Did you want to?" },
+  { "type": "line", "speaker": "Mawla",
+    "text": "The detachment? Less than I expected." },
+  { "type": "line", "speaker": null,
+    "text": "She looks at her coffee. That's all she gives you. But it's more than she usually gives anyone." },
+  { "type": "jump", "scene": "act2_scene2" }
+]

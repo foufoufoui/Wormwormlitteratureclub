@@ -1,0 +1,45 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "What's on slide three?" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "THANK YOU. Slide three is the offerings list." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "The what." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Every summoning ritual requires offerings. I've cross-referenced Scatha's known drops from Hypixel Skyblock to determine what he values." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "The things that drop when you kill him in a video game." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "The things that represent his essence, yes. So: enchanted string. Dragon fragments — we might have to substitute there, I haven't sourced those yet. Worm bait, obviously—" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "You want to bring worm bait into the school building." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Ceremonial worm bait. It's different." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "What's the difference?" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I will say a blessing over it first." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That's still just worm bait." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "Where does one even buy worm bait in this city?" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I know a guy. He runs a fishing supply shop two streets over. He was very understanding about the ceremonial context. Mostly." },
+
+  { "type": "line", "speaker": null,
+    "text": "You look at Grubwin. Grubwin looks at you. You have known this boy for approximately fifteen minutes and you already feel a deep, wordless bond with him." },
+
+  { "type": "jump", "scene": "act1_scene4" }
+]

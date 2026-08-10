@@ -1,0 +1,30 @@
+[
+  { "type": "bg",    "file": "underground" },
+  { "type": "music", "file": "clubroom_ritual" },
+  { "type": "char", "name": "Vermia",  "expr": "blessed",   "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "resigned",  "pos": "left",   "visible": false },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "confident", "pos": "center", "visible": true },
+
+  { "type": "line", "speaker": null, "text": "The Full Convergence Event. The greenhouse. The moon is coming up through the glass ceiling, filling the space with silver." },
+  { "type": "line", "speaker": null, "text": "Dirtus has prepared the earth floor: the Scathagram is here too, but bigger, drawn with special chalk he found — it glows faintly in the moonlight, which he explains is because it has mica in it. Grubwin checked. It does have mica. This is fine." },
+
+  { "type": "char", "name": "Grubwin", "expr": "resigned", "pos": "left", "visible": true },
+
+  { "type": "line", "speaker": "Grubwin", "text": "For the record, we got official permission to be here." },
+  { "type": "line", "speaker": "Dirtus",  "text": "Noted for the record." },
+  { "type": "line", "speaker": "Grubwin", "text": "Also for the record I am holding the emergency first aid kit." },
+  { "type": "line", "speaker": "Dirtus",  "text": "That's responsible. I support that." },
+  { "type": "line", "speaker": "Vermia",  "text": "Okay. Is everyone ready?" },
+  { "type": "line", "speaker": null, "text": "The stack of poems is in Vermia's hands. Twenty poems. Five people. Four weeks. All building toward this." },
+  { "type": "line", "speaker": "Mawla",   "text": "Ready." },
+  { "type": "line", "speaker": "Grubwin", "text": "...Yes." },
+  { "type": "line", "speaker": "Dirtus",  "text": "Scatha is listening." },
+  { "type": "line", "speaker": "Vermia",  "text": "Then let's begin." },
+  { "type": "music", "file": "clubroom_hymn" },
+  { "type": "line", "speaker": null, "text": "They read. Not singing this time — reading. One voice at a time, in sequence, each poem picking up something from the one before." },
+  { "type": "line", "speaker": null, "text": "It takes a long time. The moon moves a little. The mica chalk glows." },
+  { "type": "line", "speaker": null, "text": "When it's your turn, you read your poems — both of them, from weeks two and four. Your voice is different here. The greenhouse makes everything resonate." },
+  { "type": "line", "speaker": null, "text": "And then—" },
+  { "type": "jump", "scene": "act3_scene2" }
+]

@@ -1,0 +1,17 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "What would the second hymn sound like?" },
+  { "type": "line", "speaker": "Vermia",
+    "text": "Different. Slower. The first one is full of calling energy — come, rise, hear us. The second one would just be — here we are. We're still here. Is that enough?" },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That's almost a normal song." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "All normal songs are secretly hymns. That's my position." },
+  { "type": "line", "speaker": "Mawla",
+    "text": "Write it. I'll help with the melody if you want." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "MAWLA." },
+  { "type": "line", "speaker": "Mawla",
+    "text": "I said what I said." },
+  { "type": "jump", "scene": "act2_scene2" }
+]

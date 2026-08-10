@@ -1,0 +1,16 @@
+[
+  { "type": "bg", "file": "clubroom_sunset" },
+  { "type": "music", "file": "poem_writing" },
+  { "type": "char", "name": "Vermia",  "expr": "preaching", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "thinking",  "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "normal",    "pos": "center", "visible": false },
+  { "type": "line", "speaker": null, "text": "Le Relais commence. Semaine un." },
+  { "type": "line", "speaker": null, "text": "La règle : écrire un poème qui commence là où celui de quelqu'un d'autre s'est terminé. Pas littéralement — en esprit. Tu passes l'énergie entre vous." },
+  { "type": "line", "speaker": null, "text": "Vermia écrit la première. Le sien parle d'émergence — des choses qui remontent à travers le sol et ne savent pas ce qu'elles vont trouver. Elle le lit puis — chose inhabituelle — ne dit rien. Elle le plie juste et le pose au centre de la table." },
+  { "type": "line", "speaker": null, "text": "Grubwin lit le sien. Prend beaucoup de temps. Écrit quelque chose de court. Son poème parle de rester au même endroit assez longtemps pour en faire partie. Il le pose sur le sien." },
+  { "type": "line", "speaker": null, "text": "Mawla écrit longtemps. Son poème parle d'une profondeur qui ne s'annonce pas. Elle le lit doucement. Le pose sur la pile." },
+  { "type": "line", "speaker": null, "text": "Maintenant c'est ton tour." },
+  { "type": "poem" },
+  { "type": "jump", "scene": "act2_scene6" }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "type": "bg",
+    "file": "clubroom_sunset"
+  },
+  {
+    "type": "music",
+    "file": "poem_writing"
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "preaching",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "thinking",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "normal",
+    "pos": "center",
+    "visible": false
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The Relay begins. Week one."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The rule: write a poem that starts where someone else's ended. Not literally \u2014 in spirit. You pass the energy between you."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Vermia writes first. Hers is about emergence \u2014 things that come up through soil and don't know what they'll find. She reads it and then \u2014 unusually \u2014 says nothing. Just folds it and puts it in the center of the table."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Grubwin reads hers. Takes a long time. Writes something short. His poem is about staying in the same place long enough to become part of it. He puts it on top of hers."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Mawla writes for a long time. Her poem is about depth that doesn't announce itself. She reads it quietly. Places it on the stack."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Now it's yours."
+  },
+  {
+    "type": "poem"
+  },
+  {
+    "type": "jump",
+    "scene": "act2_scene6"
+  }
+]

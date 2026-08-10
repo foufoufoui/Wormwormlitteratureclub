@@ -1,0 +1,21 @@
+[
+  { "type": "bg", "file": "rooftop" },
+  { "type": "music", "file": "clubroom_normal" },
+  { "type": "char", "name": "Grubwin", "expr": "normal", "pos": "center", "visible": true },
+  { "type": "line", "speaker": null, "text": "Tu trouves Grubwin sur le toit après les cours. La porte était déverrouillée, comme il avait dit. Il est assis sur le muret bas, regardant la ville, son clipboard sur les genoux sans rien d'écrit dessus." },
+  { "type": "line", "speaker": null, "text": "Il n'a pas l'air surpris que tu sois monté·e." },
+  { "type": "line", "speaker": "Grubwin", "text": "Salut." },
+  { "type": "line", "speaker": "[player]", "text": "Salut." },
+  { "type": "line", "speaker": null, "text": "Tu t'assieds à côté de lui. La ville bourdonne. Des nuages font quelque chose d'intéressant." },
+  { "type": "line", "speaker": "Grubwin", "text": "Je pense au truc de Vermia. Le deuxième hymne. Ce qu'on fait après." },
+  { "type": "line", "speaker": "[player]", "text": "Qu'est-ce qu'il y a ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "Je pense qu'elle veut dire quelque chose de plus que Scatha. Je pense qu'elle veut dire — quand tu as voulu pendant si longtemps que quelque chose soit réel, et puis quelque chose se passe qui pourrait compter comme réel, même un peu — qu'est-ce que tu fais avec ça ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "Tu continues à vouloir plus ? Tu le laisses suffire ? Tu fais semblant de ne pas avoir espéré ?" },
+  { "type": "line", "speaker": "[player]", "text": "Laquelle elle fait ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "Les trois, à différents moments. C'est pour ça qu'elle a besoin d'écrire une chanson là-dessus." },
+  { "type": "line", "speaker": null, "text": "Un silence. Pas inconfortable." },
+  { "type": "line", "speaker": "Grubwin", "text": "Je suis content·e que tu nous aies trouvés, [player]. Le club. Je sais que je ne dis pas des trucs comme ça." },
+  { "type": "line", "speaker": "[player]", "text": "Tu le dis. Parfois." },
+  { "type": "line", "speaker": "Grubwin", "text": "Pas assez. Tu as un peu changé l'énergie. En bien." },
+  { "type": "jump", "scene": "act2_scene4" }
+]

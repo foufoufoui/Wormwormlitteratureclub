@@ -1,0 +1,32 @@
+[
+  { "type": "bg",    "file": "clubroom_sunset" },
+  { "type": "music", "file": "ending_credits" },
+  { "type": "char", "name": "Vermia",  "expr": "happy",     "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "happy",     "pos": "left",   "visible": false },
+  { "type": "char", "name": "Mawla",   "expr": "actuallymoved", "pos": "right", "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "triumphant","pos": "center", "visible": true },
+
+  { "type": "line", "speaker": null, "text": "Dirtus presents all twelve slides. It takes forty minutes. Nobody leaves." },
+  { "type": "line", "speaker": null, "text": "The summer convergence plan involves: a rented canoe (Dirtus has identified a lake near Scatha's estimated underground meridian), a waterproof version of the Scathagram drawn on a floating platform, and a new hymn written collaboratively by all five members. Week by week. Through the summer." },
+
+  { "type": "char", "name": "Grubwin", "expr": "happy", "pos": "left", "visible": true },
+
+  { "type": "line", "speaker": "Grubwin","text": "I want to note that this plan is insane." },
+  { "type": "line", "speaker": "Dirtus", "text": "Noted." },
+  { "type": "line", "speaker": "Grubwin","text": "I also want to note that I looked up the lake. It's actually nice. Good fishing." },
+  { "type": "line", "speaker": "Mawla",  "text": "I've already started writing something for the summer hymn." },
+  { "type": "line", "speaker": "Vermia", "text": "MAWLA." },
+  { "type": "line", "speaker": "Mawla",  "text": "I know. I know." },
+
+  { "type": "line", "speaker": null, "text": "The sun is going down through the clubroom window. The worm poster glows in the orange light. The clay figure on the windowsill, cleaned now, looks wise." },
+  { "type": "line", "speaker": null, "text": "Dirtus is already talking about slide two of the summer plan. Grubwin is writing notes on his clipboard, real notes, helpful notes. Vermia is sketching a new hymn structure in the margin of her Rhyme Journal. Mawla is reading something she wrote to herself, quietly, making small changes." },
+  { "type": "line", "speaker": null, "text": "And you are here. In this room. Among these people." },
+  { "type": "line", "speaker": null, "text": "There is something beneath the surface of things. Something that turns slowly, that doesn't ask permission, that moves through darkness like it belongs." },
+  { "type": "line", "speaker": null, "text": "You don't know if it's Scatha. You don't know if it's anything with a name." },
+  { "type": "line", "speaker": null, "text": "You know it's here." },
+
+  { "type": "line", "speaker": null, "text": "~ WORM WORM LITERATURE CLUB ~" },
+  { "type": "line", "speaker": null, "text": "Praise be to Scatha." },
+  { "type": "line", "speaker": null, "text": "And to everyone who stayed." },
+  { "type": "end" }
+]

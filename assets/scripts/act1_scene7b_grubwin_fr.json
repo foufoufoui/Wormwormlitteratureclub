@@ -1,0 +1,15 @@
+[
+  { "type": "line", "speaker": null, "text": "Tu lis un poème sur quelqu'un qui a choisi de rester. Sur tous les moments où partir aurait été plus facile — et quelque chose de plus silencieux que la foi les a fait se rasseoir." },
+  { "type": "line", "speaker": null, "text": "Grubwin est très immobile pendant que tu lis. Son visage fait quelque chose de compliqué." },
+  { "type": "line", "speaker": "Dirtus", "text": "*chuchote* Il fait le truc du clipboard." },
+  { "type": "line", "speaker": "Mawla", "text": "Chut." },
+  { "type": "line", "speaker": null, "text": "Après l'échange, pendant le thé, Grubwin vient se tenir à côté de toi. Il ne dit rien pendant un moment." },
+  { "type": "char", "name": "Grubwin", "expr": "surprised", "pos": "left", "visible": true },
+  { "type": "line", "speaker": "Grubwin", "text": "Le poème était. Ouais." },
+  { "type": "line", "speaker": "Grubwin", "text": "Je ne réalisais pas que le fait de rester était aussi visible." },
+  { "type": "line", "speaker": "[player]", "text": "C'était à peu près la chose la plus visible chez toi." },
+  { "type": "line", "speaker": "Grubwin", "text": "Hmm." },
+  { "type": "line", "speaker": null, "text": "Il regarde l'affiche du ver. Vous regardez tous les deux l'affiche du ver." },
+  { "type": "line", "speaker": "Grubwin", "text": "Je suis content·e que tu sois là. Pour ce que ça vaut." },
+  { "type": "jump", "scene": "act1_scene8" }
+]

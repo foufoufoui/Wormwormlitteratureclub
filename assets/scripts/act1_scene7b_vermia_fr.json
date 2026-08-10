@@ -1,0 +1,12 @@
+[
+  { "type": "line", "speaker": null, "text": "Tu lis un poème sur un feu qui n'a pas besoin de permission. Sur quelqu'un qui a construit une cathédrale à partir de quelque chose que personne d'autre ne croyait réel, l'a remplie de tous ceux qu'elle a pu trouver, et l'a appelée un club littéraire." },
+  { "type": "line", "speaker": null, "text": "Vermia pleure. Évidemment." },
+  { "type": "line", "speaker": "Grubwin", "text": "Tu ne peux pas répondre avant que tout le monde ait fini, Vermia." },
+  { "type": "line", "speaker": "Vermia", "text": "*très doucement* Je ne réponds pas je — je fuis juste un peu —" },
+  { "type": "line", "speaker": "Mawla", "text": "C'était un bon poème, [player]." },
+  { "type": "line", "speaker": null, "text": "Après l'échange, pendant le thé, Vermia te trouve près de l'étagère." },
+  { "type": "char", "name": "Vermia", "expr": "surprised", "pos": "center", "visible": true },
+  { "type": "line", "speaker": "Vermia", "text": "Je veux que tu saches que ce poème a compté pour moi plus que tu ne le pensais probablement. Le bout sur la cathédrale. Je n'avais jamais — personne n'avait jamais formulé ça ainsi. Ce que je faisais. Ce que c'est." },
+  { "type": "line", "speaker": "Vermia", "text": "Scatha t'a certainement envoyé·e. Je veux juste que ce soit noté." },
+  { "type": "jump", "scene": "act1_scene8" }
+]

@@ -1,0 +1,10 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Je pense qu'on devrait le faire. Au pire ça ne marche pas et c'est une bonne histoire." },
+  { "type": "line", "speaker": "Dirtus", "text": "OUI. LE NOUVEAU COMPREND. [player] a du COURAGE DE VER." },
+  { "type": "line", "speaker": "Grubwin", "text": "Le courage de ver n'est pas un concept." },
+  { "type": "line", "speaker": "Vermia", "text": "C'en est un MAINTENANT." },
+  { "type": "line", "speaker": "Mawla", "text": "Pour le compte-rendu je pense que c'est une mauvaise idée. Pour le compte-rendu j'y serai quand même." },
+  { "type": "line", "speaker": "Grubwin", "text": "..." },
+  { "type": "line", "speaker": "Grubwin", "text": "Je vous déteste tous. J'apporterai des snacks." },
+  { "type": "jump", "scene": "act1_scene9" }
+]

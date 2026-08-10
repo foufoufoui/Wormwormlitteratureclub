@@ -1,0 +1,12 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Je ne me sens pas à l'aise avec la violation de propriété. Mais — et le toit ? C'est techniquement encore la propriété du lycée mais ce n'est pas restreint de la même façon." },
+  { "type": "line", "speaker": null, "text": "Silence. Tout le monde réfléchit à ça." },
+  { "type": "line", "speaker": "Dirtus", "text": "Le toit est en fait PLUS HAUT que le tunnel. Plus proche de la lune. C'est... c'est mieux, en fait." },
+  { "type": "line", "speaker": "Grubwin", "text": "La porte du toit est généralement déverrouillée de l'intérieur pendant la ronde de nettoyage du soir." },
+  { "type": "line", "speaker": "Mawla", "text": "Comment tu sais ça." },
+  { "type": "line", "speaker": "Grubwin", "text": "J'y monte parfois pour réfléchir." },
+  { "type": "line", "speaker": "Vermia", "text": "GRUBWIN. Tu communiais avec Scatha sans me le dire—" },
+  { "type": "line", "speaker": "Grubwin", "text": "Je m'assoie sur un toit pour être seul, c'est différent." },
+  { "type": "line", "speaker": "Vermia", "text": "[player] tu as résolu le problème. Invocation sur le toit. La diapositive huit a besoin de révisions mineures." },
+  { "type": "jump", "scene": "act1_scene9" }
+]

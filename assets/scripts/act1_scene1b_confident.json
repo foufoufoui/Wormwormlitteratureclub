@@ -1,0 +1,27 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "I'm [player]. It's nice to meet you both." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "OHHH! A composed one! Scatha LOVES composed energy! It means you're spiritually solid. Like good topsoil!" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Topsoil isn't a personality trait, Vermia." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Everything is a personality trait if you believe hard enough." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That's also not true. Hi, [player]. Welcome. Don't let her assign you a spiritual element on the first day. She will try." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I wasn't going to do it on the first day. I was going to wait until the end of the meeting." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "..." },
+
+  { "type": "line", "speaker": null,
+    "text": "Before you can ask what a spiritual element is, or why Vermia is already reaching for a small notebook, the door opens again." },
+
+  { "type": "jump", "scene": "act1_scene2" }
+]

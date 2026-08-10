@@ -1,0 +1,19 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Mawla — qu'est-ce que tu penses vraiment de tout ça ?" },
+  { "type": "line", "speaker": "Mawla", "text": "Honnêtement ?" },
+  { "type": "line", "speaker": "[player]", "text": "Honnêtement." },
+  { "type": "line", "speaker": null, "text": "Elle réfléchit. Elle prend une gorgée de café." },
+  { "type": "line", "speaker": "Mawla", "text": "Je pense que Scatha n'est pas réel. Je pense que Vermia sait que Scatha n'est pas réel. Je pense que tout ça est une belle fiction qu'elle a construite pour donner à l'écriture un sens plus profond." },
+  { "type": "line", "speaker": "Mawla", "text": "Et je pense que — si tu regardes ça sous le bon angle — ça donne effectivement à l'écriture un sens plus profond. Donc voilà." },
+  { "type": "line", "speaker": "Vermia", "text": "C'est la chose la plus hérétique que tu aies jamais dite et aussi la plus gentille." },
+  { "type": "line", "speaker": "Mawla", "text": "De rien." },
+  { "type": "line", "speaker": "Grubwin", "text": "Ça fait deux ans que je suis là et je ne t'ai jamais entendu le formuler comme ça." },
+  { "type": "line", "speaker": "Mawla", "text": "La nouvelle personne a demandé. Ça m'a semblé être une situation qui méritait une réponse honnête." },
+  { "type": "line", "speaker": "Dirtus", "text": "Pour info je pense que Scatha EST réel et que mon plan d'invocation va le prouver." },
+  { "type": "line", "speaker": "Mawla", "text": "Pour info je soutiens ton droit de le croire." },
+  { "type": "line", "speaker": "Dirtus", "text": "Merci Mawla." },
+  { "type": "line", "speaker": "Mawla", "text": "Je ne pense pas que ça marchera pour autant." },
+  { "type": "line", "speaker": "Dirtus", "text": "Je respecte ton doute. Ça rendra le succès encore plus savoureux." },
+  { "type": "line", "speaker": null, "text": "Tu penses que tu aimes peut-être vraiment tout le monde ici. C'est alarmant vu que tu es arrivé·e il y a vingt minutes, mais c'est comme ça." },
+  { "type": "jump", "scene": "act1_scene4" }
+]

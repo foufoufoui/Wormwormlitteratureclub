@@ -1,0 +1,11 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Je suis partant·e. Faisons le Relais complet." },
+  { "type": "line", "speaker": "Dirtus", "text": "LE NOUVEAU A DU COURAGE DE VER." },
+  { "type": "line", "speaker": "Vermia", "text": "COURAGE DE VER ! C'est moi qui ai dit ça en premier !" },
+  { "type": "line", "speaker": "Grubwin", "text": "D'accord. Je suis partant. Mais j'écris sur quelque chose de réel, pas spécifiquement sur Scatha." },
+  { "type": "line", "speaker": "Dirtus", "text": "Tant que ça rime avec quelque chose à quoi je peux répondre." },
+  { "type": "line", "speaker": "Mawla", "text": "Je suis partante. Dirtus — j'écris en vers libres. N'essaie pas de le rendre compatible avec ta rime." },
+  { "type": "line", "speaker": "Dirtus", "text": "Je respecte ton choix artistique. Ce sera un défi." },
+  { "type": "line", "speaker": "Mawla", "text": "Bien." },
+  { "type": "jump", "scene": "act2_scene5" }
+]

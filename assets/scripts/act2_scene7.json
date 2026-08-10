@@ -1,0 +1,26 @@
+[
+  { "type": "bg",    "file": "clubroom_night" },
+  { "type": "music", "file": "tension" },
+  { "type": "char", "name": "Vermia",  "expr": "nervous",   "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "nervous",   "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "thinking",  "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "confident", "pos": "center", "visible": false },
+
+  { "type": "line", "speaker": null, "text": "Week three of the Relay. Dirtus is late. Very late. An hour past start time." },
+  { "type": "line", "speaker": null, "text": "He finally texts: 'I found the location. It's perfect. Come see it tomorrow. Bring the poems.'" },
+  { "type": "line", "speaker": "Grubwin", "text": "He found a location. He's been scouting a location." },
+  { "type": "line", "speaker": "Vermia", "text": "That's good! That means he's taking the Full Convergence seriously." },
+  { "type": "line", "speaker": "Grubwin", "text": "He's been taking it seriously since day one. That's what worries me." },
+  { "type": "line", "speaker": "Mawla", "text": "What's the worst that happens?" },
+  { "type": "line", "speaker": "Grubwin", "text": "I don't know. That's the other thing that worries me." },
+  { "type": "line", "speaker": "Mawla", "text": "Scatha doesn't manifest. We read some poems. We go home. Same as always." },
+  { "type": "line", "speaker": "Grubwin", "text": "And if it does work?" },
+  { "type": "line", "speaker": "Mawla", "text": "..." },
+  { "type": "line", "speaker": "Mawla", "text": "Then we deal with that when it happens." },
+  { "type": "line", "speaker": null, "text": "Vermia has been very quiet. You look at her." },
+  { "type": "line", "speaker": "[player]", "text": "Vermia? You okay?" },
+  { "type": "line", "speaker": "Vermia", "text": "I've wanted Scatha to be real for a very long time. Since the beginning. I built all of this because I wanted something — enormous — to be real." },
+  { "type": "line", "speaker": "Vermia", "text": "Now that it's actually happening — or getting close to happening — I'm scared of what I'll feel if nothing comes. And also scared of what I'll feel if something does." },
+  { "type": "line", "speaker": null, "text": "This is the most honest thing she's said, maybe ever. Nobody fills the silence. You let her have it." },
+  { "type": "jump", "scene": "act2_scene8" }
+]

@@ -1,0 +1,42 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "Dirtus. When exactly are you planning to do the summoning?" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Slide six has the calendar. The next Worm Moon window is in three weeks." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "What's a Worm Moon?" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "It's a real thing. The March full moon. Farmers used to call it that because worms come up through the thawed ground. I looked it up. It's not even something I invented." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That part is actually true." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I know. I was shocked too. The universe is aligned. Scatha wants this." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "If the worm moon is real then I have to admit the concept of a worm moon based ritual has a certain logic to it." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Please don't give him legitimacy." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I'm just noting it has internal consistency." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "THANK YOU, Mawla. Internal consistency is the foundation of all good ritual." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "So. Three weeks. I'll need everyone present. Including you, [player]. You're new which means you have the freshest worm energy. Uncorrupted by doubt." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "I have some doubt." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Some doubt is fine. Scatha respects intellectual honesty." },
+
+  { "type": "jump", "scene": "act1_scene6" }
+]

@@ -1,0 +1,67 @@
+[
+  { "type": "bg",    "file": "clubroom_day" },
+  { "type": "music", "file": "poem_writing" },
+
+  { "type": "char", "name": "Vermia",  "expr": "happy",   "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "thinking", "pos": "center", "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",  "pos": "right",  "visible": true },
+
+  { "type": "line", "speaker": null,
+    "text": "The meeting settles into its rhythm. Everyone writes. The room goes quiet in a way that feels different from loneliness — the kind of quiet where something is actually happening." },
+
+  { "type": "line", "speaker": null,
+    "text": "You write. It comes easier this time. You don't know if that's good or concerning." },
+
+  { "type": "line", "speaker": null,
+    "text": "Halfway through, Vermia reads hers aloud — she always does, apparently. It's about Scatha and also clearly about something else, something personal she hasn't named. Grubwin listens carefully. Mawla writes something in the margin of her notebook that might be a response." },
+
+  { "type": "line", "speaker": null,
+    "text": "Dirtus produces a poem that is entirely a detailed list of summoning instructions written in rhyming couplets. It is the worst poem you have ever heard. Everyone claps." },
+
+  { "type": "char", "name": "Dirtus", "expr": "triumphant", "pos": "center", "visible": false },
+  { "type": "char", "name": "Dirtus", "expr": "triumphant", "pos": "center", "visible": true },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I'd like to note that was also a functional ritual document. Two birds." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "The rhyme scheme was inconsistent in the third stanza." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Scatha doesn't care about meter." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I care about meter." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I loved it. I love all of it. I love this club." },
+
+  { "type": "line", "speaker": null,
+    "text": "She says this simply, without a performance. Just a fact." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Okay — next week is the Grand Poem Exchange! Everyone brings a poem they wrote about another club member. You've had two sessions now [player], so you're included." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "A poem about one of you?" },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "About what you've observed. What you've noticed. What you feel when you look at them. It's our favorite tradition." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Last year Mawla wrote me a poem that made me need to go to the bathroom to collect myself." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I wasn't trying to do that." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "It was very accurate and I wasn't prepared." },
+
+  { "type": "line", "speaker": null,
+    "text": "You walk home thinking about who you'd write about. The question keeps surfacing even after you've decided to table it." },
+
+  { "type": "line", "speaker": null,
+    "text": "You don't sleep that well either, it turns out." },
+
+  { "type": "jump", "scene": "act1_scene7" }
+]

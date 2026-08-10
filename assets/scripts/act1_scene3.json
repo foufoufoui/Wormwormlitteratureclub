@@ -1,0 +1,130 @@
+[
+  { "type": "bg",    "file": "clubroom_day" },
+  { "type": "music", "file": "clubroom_normal" },
+
+  { "type": "char", "name": "Vermia",  "expr": "preaching", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "resigned",  "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+
+  { "type": "line", "speaker": null,
+    "text": "After the poem exercise, the meeting settles into something almost normal. Almost. Vermia has produced a notebook from somewhere and is listing things you need to know about Scatha." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Okay so the key tenets. One: Scatha dwells beneath. Not underground necessarily — more like beneath the surface of things. Beneath what you think you know." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Two: worms are sacred but Scatha is not a worm. Scatha is what worms aspire to. It's a distinction people always get wrong." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I've never seen any source for that distinction." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I made it up in year one and it stuck. That's basically how all theology works." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "She's not wrong." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Three: poetry is our primary form of worship. Scatha communicates through metaphor. That's why literature club. That's why ALL of this." },
+
+  { "type": "line", "speaker": null,
+    "text": "She gestures at the entire room. The poster. The handmade journals. A small clay worm figure on the windowsill you somehow missed earlier." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "Did you make that?" },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Grubwin made it." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "It was for a pottery class. I ran out of ideas." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "It's genuinely impressive. The detail on the crown is good." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Thank you. I spent three weeks on the crown." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Please don't read into that." },
+
+  { "type": "line", "speaker": null,
+    "text": "The door bangs open. A boy enters at high velocity carrying what appears to be a foam-board presentation. He is slightly out of breath." },
+
+  { "type": "char", "name": "Dirtus", "expr": "confident", "pos": "center", "visible": true },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "FELLOW DEVOTEES. I have done it. I have completed the Summoning Proposal." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "DIRTUS! You're here! What is the Summoning Proposal?!" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I'm already worried." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "A structured, five-step plan to summon Scatha from the game world into our reality. Slide one—" },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "You made slides." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I made EIGHT slides." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Dirtus. We have talked about this. Scatha is a Hypixel Skyblock mob. You cannot summon game data into physical reality." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "That's what they said about electricity." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That is NOTHING like what they said about electricity." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Let him present! Dirtus, you have the floor. Scatha is listening." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Step one: we need a ritual location. I've scouted the school basement—" },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "There is no school basement." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "There is a maintenance tunnel under the gym. It counts." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "It absolutely does not count." },
+
+  { "type": "line", "speaker": null,
+    "text": "He flips to slide two. It's a hand-drawn diagram of what appears to be a chalk circle with a worm drawn in the middle and several arrows pointing at it labeled things like 'WORM ENERGY IN' and 'SCATHA MANIFESTS HERE'." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "Is that a pentagram with worm segments instead of a star?" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "It's a Scathagram. I invented the term." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I kind of respect the commitment." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Don't encourage him." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "DIRTUS. This is incredible. This is the most devotional thing anyone has brought to a meeting since I wrote the Grand Hymn." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Speaking of which — new member present, which means we should perform the Grand Hymn. Right now. As a welcome." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "We're not doing the Grand Hymn on a Tuesday." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Scatha doesn't observe the Western calendar, Grubwin." },
+
+  { "type": "choice", "options": [
+    { "label": "Ask to hear the Grand Hymn", "jump": "act1_scene3b_hymn" },
+    { "label": "Ask Dirtus about slide three", "jump": "act1_scene3b_dirtus" },
+    { "label": "Ask Mawla how she actually feels about all this", "jump": "act1_scene3b_mawla" }
+  ]}
+]

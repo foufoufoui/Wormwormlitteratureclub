@@ -1,0 +1,16 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Dirtus. Quand exactement tu comptes faire l'invocation ?" },
+  { "type": "line", "speaker": "Dirtus", "text": "La diapositive six a le calendrier. La prochaine fenêtre de Lune des Vers est dans trois semaines." },
+  { "type": "line", "speaker": "[player]", "text": "C'est quoi une Lune des Vers ?" },
+  { "type": "line", "speaker": "Dirtus", "text": "C'est une vraie chose. La pleine lune de mars. Les agriculteurs l'appelaient ainsi parce que les vers remontent à travers le sol dégelé. J'ai vérifié. Ce n'est même pas quelque chose que j'ai inventé." },
+  { "type": "line", "speaker": "Grubwin", "text": "Cette partie est vraie en effet." },
+  { "type": "line", "speaker": "Dirtus", "text": "Je sais. J'étais choqué aussi. L'univers est aligné. Scatha veut ça." },
+  { "type": "line", "speaker": "Mawla", "text": "Si la lune des vers est réelle alors je dois admettre que l'idée d'un rituel basé sur la lune des vers a une certaine logique." },
+  { "type": "line", "speaker": "Grubwin", "text": "Ne lui donne pas de légitimité." },
+  { "type": "line", "speaker": "Mawla", "text": "Je note juste qu'il a une cohérence interne." },
+  { "type": "line", "speaker": "Dirtus", "text": "MERCI, Mawla. La cohérence interne est le fondement de tout bon rituel." },
+  { "type": "line", "speaker": "Dirtus", "text": "Donc. Trois semaines. J'aurai besoin de tout le monde. Y compris toi, [player]. Tu es nouveau·elle ce qui signifie que tu as l'énergie de ver la plus fraîche. Non corrompue par le doute." },
+  { "type": "line", "speaker": "[player]", "text": "J'ai quelques doutes." },
+  { "type": "line", "speaker": "Dirtus", "text": "Quelques doutes c'est bien. Scatha respecte l'honnêteté intellectuelle." },
+  { "type": "jump", "scene": "act1_scene6" }
+]

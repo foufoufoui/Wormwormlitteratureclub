@@ -1,0 +1,140 @@
+[
+  {
+    "type": "bg",
+    "file": "hallway"
+  },
+  {
+    "type": "music",
+    "file": "clubroom_normal"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "First day at a new school. You've been here for exactly four hours, made zero friends, spilled water on yourself, and somehow agreed to join a club you've never heard of."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The club is called the Literature Club. You're not into literature. But the girl who invited you had such unhinged enthusiasm that saying no felt genuinely dangerous."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You find the door. Room 2-B. A handwritten sign reads: 'WORM WORM LITERATURE CLUB — ALL ARE WELCOME IN SCATHA'S NAME'."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You stare at the sign for a moment. Then you open the door."
+  },
+  {
+    "type": "bg",
+    "file": "clubroom_day"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The clubroom smells like soil and vanilla candles. A large poster of a worm hangs on the back wall. The worm wears a crown. Someone drew a little halo above its head in gold marker."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "A bookshelf lines the left wall — poetry anthologies and handmade journals with titles like 'Odes to the Great Worm Vol. 4' and 'My Feelings: A Scatha Companion'."
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "happy",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "YOU CAME!"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I knew you would. Scatha told me. Well — Scatha didn't tell me directly. I felt it in my left elbow. That's my spiritual elbow."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "She's already crossing the room toward you at a concerning speed."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I am Vermia! High Poetess of the Second Molt, Keeper of the Sacred Rhyme Journal, and founder of the only literature club in this school that truly MATTERS."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Well — I'm also the only founder. But I founded it twice technically, because the first time the teacher said it didn't count since we needed four members. So."
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "nervous",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "...Hi. I'm Grubwin. I want to say upfront that I joined under different circumstances than whatever Vermia told you."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I told them nothing yet!"
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "That's suspicious in its own way, actually."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Anyway. It's a normal literature club. We write poems. We share them. That's it. Everything else is peripheral."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "The 'everything else' IS the point, Grubwin."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "The 'everything else' is a religion centered on a divine being from a block game."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "SCATHA IS NOT FICTIONAL. He is merely... yet to be proven."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You glance at the worm poster again. The worm stares back. You feel nothing. And yet."
+  },
+  {
+    "type": "choice",
+    "options": [
+      {
+        "label": "Introduce yourself properly",
+        "jump": "act1_scene1b_confident"
+      },
+      {
+        "label": "Ask about the blessed potato",
+        "jump": "act1_scene1b_potato"
+      },
+      {
+        "label": "Keep staring at the worm poster",
+        "jump": "act1_scene1b_stare"
+      }
+    ]
+  }
+]

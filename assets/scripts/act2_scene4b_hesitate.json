@@ -1,0 +1,12 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "I don't know. This feels like it's building toward something intense." },
+  { "type": "line", "speaker": "Dirtus", "text": "That is the point. Good intense, though." },
+  { "type": "line", "speaker": "Mawla", "text": "[player] — you can set a limit. If at any point you want out, you say so and the Relay pauses." },
+  { "type": "line", "speaker": "Dirtus", "text": "...Yes. Mawla's right. This only works if everyone actually wants to be here." },
+  { "type": "line", "speaker": "Vermia", "text": "Scatha does not want unwilling devotees. He's very clear on that. Chapter three of the Rhyme Journal." },
+  { "type": "line", "speaker": "Grubwin", "text": "You wrote the Rhyme Journal." },
+  { "type": "line", "speaker": "Vermia", "text": "Inspired by Scatha." },
+  { "type": "line", "speaker": "[player]", "text": "Okay. I'll try it. One week at a time." },
+  { "type": "line", "speaker": "Dirtus", "text": "That's all we're asking." },
+  { "type": "jump", "scene": "act2_scene5" }
+]

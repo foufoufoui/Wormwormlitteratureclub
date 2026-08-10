@@ -1,0 +1,129 @@
+[
+  {
+    "type": "bg",
+    "file": "clubroom_day"
+  },
+  {
+    "type": "music",
+    "file": "poem_writing"
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "normal",
+    "pos": "left",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "happy",
+    "pos": "left",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "normal",
+    "pos": "center",
+    "visible": false
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "A few days later. You arrive at the clubroom early. Only Mawla is there."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "She's not writing. She's looking at the worm poster."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Hey."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Hey."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You sit. The room is quiet."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Can I tell you something?"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Yeah."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Before this club I didn't really write. I had thoughts but I didn't know what to do with them. They'd just sit there being too heavy."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Now I write them down and they're still heavy but they're — mine, in a different way. Contained. I can look at them."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "That's what Vermia gave me. I don't tell her because she'd make it into a religious event. But."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "You should tell her anyway."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "..."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Maybe."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Another quiet. The worm poster stares. The clay figure on the windowsill has caught even more dust."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "I'm glad you're in this club, [player]. It's different with you here. Better different."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Same."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Yeah."
+  },
+  {
+    "type": "actcard",
+    "title": "Act IV",
+    "subtitle": "~ The Final Presentation ~",
+    "next": "act4_scene1"
+  }
+]

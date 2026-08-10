@@ -1,0 +1,59 @@
+[
+  { "type": "bg",    "file": "clubroom_day" },
+  { "type": "music", "file": "clubroom_normal" },
+
+  { "type": "line", "speaker": null,
+    "text": "Act Two. Three weeks after the Worm Moon." },
+  { "type": "line", "speaker": null,
+    "text": "You've been here long enough now that the clubroom feels different. Not strange — settled. The worm poster looks the same as always. The clay figure on the windowsill caught some dust. Nobody cleaned it. Grubwin considered it, put the cloth down, and went back to his clipboard." },
+  { "type": "line", "speaker": null,
+    "text": "Something changed after the park. Dirtus didn't announce whether Scatha appeared or not. He just got quieter than usual for a few days, then came back with a new slide. Nobody asked." },
+
+  { "type": "char", "name": "Vermia",  "expr": "thinking", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "normal",   "pos": "left",   "visible": true },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I've been thinking about the Grand Hymn." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "In what way." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "I want to write a second one. The first one is about calling Scatha. The second one should be about what you do after." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "After what?" },
+  { "type": "line", "speaker": "Vermia",
+    "text": "After he comes." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "He hasn't come." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "The worm came." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "A worm came." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "A worm came to the circle. At the moment we sang. Under the Worm Moon. I'm not saying it was Scatha in full manifestation. I'm saying it was — adjacent." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Adjacent to Scatha." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "Like a scout. Or a signature. Or a comma. Scatha was gesturing." },
+
+  { "type": "char", "name": "Mawla", "expr": "normal", "pos": "right", "visible": true },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I think Vermia's onto something, actually." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Please don't." },
+  { "type": "line", "speaker": "Mawla",
+    "text": "Not literally. But — symbolically. We set out to do something together and something happened. Even if that something was just a worm. That's a kind of response." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "MAWLA." },
+  { "type": "line", "speaker": "Mawla",
+    "text": "I'm calling it symbolic. Don't push it." },
+
+  { "type": "line", "speaker": null,
+    "text": "This is the most Mawla has ever leaned toward the Scatha side of things. You file it." },
+
+  { "type": "choice", "options": [
+    { "label": "Ask Vermia what the second hymn would sound like", "jump": "act2_scene1b_hymn2" },
+    { "label": "Ask Mawla what changed for her that night", "jump": "act2_scene1b_mawla" },
+    { "label": "Ask where Dirtus is", "jump": "act2_scene1b_dirtus" }
+  ]}
+]

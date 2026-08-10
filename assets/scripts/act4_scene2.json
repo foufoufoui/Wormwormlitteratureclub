@@ -1,0 +1,65 @@
+[
+  {
+    "type": "music",
+    "file": "clubroom_normal"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Before the slides — can I say something?"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "Of course. The herald listens."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Everyone looks at you."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "I came here not knowing what I was looking for. I'm not sure I know now either. But I know that this — all of you, the poems, the worm, the chalk diagrams, Dirtus's slides—"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "I pressed my ear to the ground and something answered. Even if that something was just five people deciding to mean what they wrote."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "That's enough. That's more than enough."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Silence. Then Vermia starts crying, which is normal, but this time everyone else looks a little affected too, which is less normal."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "..."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "Scatha heard that."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "...Yeah."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Maybe."
+  },
+  {
+    "type": "jump",
+    "scene": "act4_ending_true"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  { "type": "line", "speaker": null,
+    "text": "You read a poem about someone who chose to stay. About all the moments where leaving would have been easier — and something quieter than faith made them sit back down." },
+
+  { "type": "line", "speaker": null,
+    "text": "Grubwin is very still while you read. His face does something complicated." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "*whispers* He's doing the clipboard thing." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "Shh." },
+
+  { "type": "line", "speaker": null,
+    "text": "After the exchange, during tea, Grubwin comes to stand beside you. He doesn't say anything for a moment." },
+
+  { "type": "char", "name": "Grubwin", "expr": "surprised", "pos": "left", "visible": true },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "The poem was. Yeah." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I didn't realize it was that visible. The staying." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "It was kind of the most visible thing about you." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Hm." },
+
+  { "type": "line", "speaker": null,
+    "text": "He looks at the worm poster. You both look at the worm poster." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I'm glad you're here. For what it's worth." },
+
+  { "type": "jump", "scene": "act1_scene8" }
+]

@@ -1,0 +1,13 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "What happens at the Full Convergence Event exactly?" },
+  { "type": "line", "speaker": "Dirtus", "text": "We read all the poems together in sequence. Outdoors, at night, ideally on significant ground." },
+  { "type": "line", "speaker": "Grubwin", "text": "Significant by whose definition." },
+  { "type": "line", "speaker": "Dirtus", "text": "Scatha's. Which I interpret. But I'm open to input." },
+  { "type": "line", "speaker": "[player]", "text": "And the poems have to respond to each other?" },
+  { "type": "line", "speaker": "Dirtus", "text": "They don't have to. But the best ritual texts do. It's called resonance structure. I found it in a book." },
+  { "type": "line", "speaker": "Grubwin", "text": "What book." },
+  { "type": "line", "speaker": "Dirtus", "text": "A poetry book. But I applied it to summoning theory." },
+  { "type": "line", "speaker": "[player]", "text": "Okay. I'll do it." },
+  { "type": "line", "speaker": "Vermia", "text": "WONDERFUL. We begin next session!" },
+  { "type": "jump", "scene": "act2_scene5" }
+]

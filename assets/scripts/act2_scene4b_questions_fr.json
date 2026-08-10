@@ -1,0 +1,13 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Qu'est-ce qui se passe exactement à l'Événement de Convergence Totale ?" },
+  { "type": "line", "speaker": "Dirtus", "text": "On lit tous les poèmes ensemble en séquence. Dehors, la nuit, idéalement sur un terrain significatif." },
+  { "type": "line", "speaker": "Grubwin", "text": "Significatif selon la définition de qui." },
+  { "type": "line", "speaker": "Dirtus", "text": "De Scatha. Que j'interprète. Mais je suis ouvert aux suggestions." },
+  { "type": "line", "speaker": "[player]", "text": "Et les poèmes doivent se répondre ?" },
+  { "type": "line", "speaker": "Dirtus", "text": "Ils n'ont pas à le faire. Mais les meilleurs textes rituels le font. Ça s'appelle la structure de résonance. Je l'ai trouvé dans un livre." },
+  { "type": "line", "speaker": "Grubwin", "text": "Quel livre." },
+  { "type": "line", "speaker": "Dirtus", "text": "Un livre de poésie. Mais je l'ai appliqué à la théorie de l'invocation." },
+  { "type": "line", "speaker": "[player]", "text": "D'accord. Je le ferai." },
+  { "type": "line", "speaker": "Vermia", "text": "MERVEILLEUX. On commence à la prochaine session !" },
+  { "type": "jump", "scene": "act2_scene5" }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "type": "bg",
+    "file": "rooftop"
+  },
+  {
+    "type": "music",
+    "file": "clubroom_normal"
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "normal",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You find Grubwin on the rooftop after school. The door was unlocked, like he said. He's sitting on the low wall, looking at the city, clipboard on his knees with nothing written on it."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "He doesn't seem surprised you came up."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Hey."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Hey."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You sit beside him. The city hums. There are clouds doing something interesting."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "I've been thinking about Vermia's thing. The second hymn. What you do after."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "What about it?"
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "I think she means something more than Scatha. I think she means — when you've wanted something to be real for so long, and then something happens that might count as real, even a little — what do you do with that?"
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Do you keep wanting more? Do you let it be enough? Do you pretend you weren't hoping?"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Which one does she do?"
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "All three, at different times. That's why she needs to write a song about it."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "A quiet. Not uncomfortable."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "I'm glad you found us, [player]. The club. I know I don't say things like that."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "You do. Sometimes."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Not enough. You changed the energy a bit. Good way."
+  },
+  {
+    "type": "jump",
+    "scene": "act2_scene4"
+  }
+]

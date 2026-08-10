@@ -1,0 +1,17 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "...Attendez, vous avez invoqué une pomme de terre ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "Non. Une pomme de terre est tombée d'une étagère. Vermia a décidé que c'était une réponse divine à l'hymne qu'on était en train de chanter." },
+  { "type": "line", "speaker": "Vermia", "text": "L'étagère était sur le mur NORD. Le nord est la direction sacrée de Scatha. Ce n'était pas une coïncidence." },
+  { "type": "line", "speaker": "Grubwin", "text": "Le bâtiment est légèrement incliné. Tout roule vers le nord." },
+  { "type": "line", "speaker": "Vermia", "text": "INCLINÉ PAR LA MAIN DE SCATHA." },
+  { "type": "line", "speaker": "Grubwin", "text": "Il a été incliné pendant la construction en 1987." },
+  { "type": "line", "speaker": "Vermia", "text": "Scatha travaille sur le long terme." },
+  { "type": "line", "speaker": null, "text": "Tu regardes Grubwin. Il a les yeux de quelqu'un qui a perdu absolument toutes ces disputes pendant deux ans et a simplement fait la paix avec ça." },
+  { "type": "line", "speaker": "[player]", "text": "Qu'est-il arrivé à la pomme de terre ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "On l'a mangée." },
+  { "type": "line", "speaker": "Vermia", "text": "On a eu une COMMUNION. Il y a une différence." },
+  { "type": "line", "speaker": "Grubwin", "text": "On l'a mise au micro-ondes et on l'a mangée avec du beurre." },
+  { "type": "line", "speaker": "Vermia", "text": "Du beurre sacré." },
+  { "type": "line", "speaker": null, "text": "Tu décides que tu aimes bien ce club. Avant que tu puisses dire quoi que ce soit d'autre, la porte s'ouvre." },
+  { "type": "jump", "scene": "act1_scene2" }
+]

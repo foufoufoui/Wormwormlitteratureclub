@@ -1,0 +1,13 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Honnêtement ? C'est une mauvaise idée et je ne veux pas en faire partie." },
+  { "type": "line", "speaker": "Grubwin", "text": "MERCI." },
+  { "type": "line", "speaker": "Dirtus", "text": "...Oh." },
+  { "type": "line", "speaker": "Dirtus", "text": "Je respecte ça. Tu as des limites claires. Scatha respecte les limites claires." },
+  { "type": "line", "speaker": "Vermia", "text": "Je pense aussi... peut-être que Grubwin et [player] ont un point. Le tunnel, c'est un pas trop loin. Et si on faisait quelque chose dans le parc à la place ? Sous la vraie lune ?" },
+  { "type": "line", "speaker": "Mawla", "text": "Espace public. Pas de violation. Le Scathagramme à la craie va juste sur le sol." },
+  { "type": "line", "speaker": "Dirtus", "text": "La lune sera là de toute façon." },
+  { "type": "line", "speaker": "Dirtus", "text": "...Bien. Invocation dans le parc. Je vais ajuster les diapositives." },
+  { "type": "line", "speaker": "Grubwin", "text": "J'ai dit qu'on ne faisait pas d'invocation." },
+  { "type": "line", "speaker": "Grubwin", "text": "...J'apporterai les snacks." },
+  { "type": "jump", "scene": "act1_scene9" }
+]

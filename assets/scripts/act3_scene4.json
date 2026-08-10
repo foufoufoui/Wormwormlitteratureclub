@@ -1,0 +1,34 @@
+[
+  { "type": "bg",    "file": "clubroom_day" },
+  { "type": "music", "file": "clubroom_normal" },
+  { "type": "char", "name": "Vermia",  "expr": "thinking", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "normal",   "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",   "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "normal",   "pos": "center", "visible": false },
+
+  { "type": "line", "speaker": null, "text": "The week after the Full Convergence. Strangely quiet meeting. Good quiet." },
+  { "type": "line", "speaker": "Vermia", "text": "I have a thing I want to say." },
+  { "type": "line", "speaker": "Grubwin","text": "Okay." },
+  { "type": "line", "speaker": "Vermia", "text": "I've been running this club for two years. I founded it because I needed it. I kept going because you all showed up. And this past month—" },
+  { "type": "line", "speaker": "Vermia", "text": "I don't know if Scatha is real. I thought I knew. I was sure. Now I'm in a different kind of sure — not 'yes he's real' or 'no he's not'. More like — there's something real underneath things. Something that worms know about. And we can reach toward it with poems. And sometimes it reaches back a little." },
+  { "type": "line", "speaker": "Grubwin","text": "That's the most theologically nuanced thing you've ever said." },
+  { "type": "line", "speaker": "Vermia", "text": "I've been thinking for a month." },
+  { "type": "line", "speaker": "Mawla",  "text": "I think that's exactly right. That's what I believe too, I think. I just didn't have the words for it." },
+
+  { "type": "char", "name": "Dirtus", "expr": "confident", "pos": "center", "visible": true },
+
+  { "type": "line", "speaker": "Dirtus", "text": "I still think Scatha is literally real and I'm preparing a follow-up convergence for the summer." },
+  { "type": "line", "speaker": "Vermia", "text": "I love you, Dirtus." },
+  { "type": "line", "speaker": "Dirtus", "text": "Thank you. I love all of you. Scatha loves all of you." },
+  { "type": "line", "speaker": "Grubwin","text": "The things I've accepted as normal in my life." },
+
+  { "type": "line", "speaker": "Vermia", "text": "One more thing. The second hymn. I finished it. I want to sing it. Now. Together." },
+  { "type": "line", "speaker": "Mawla",  "text": "I told you I'd help with the melody." },
+  { "type": "line", "speaker": "Vermia", "text": "I remembered. I wrote you a part." },
+
+  { "type": "music", "file": "clubroom_hymn" },
+  { "type": "line", "speaker": null, "text": "And so they sing the second hymn. It's slower than the first. Less calling, more staying. You know all the words to the first one now; you learn the second one as it happens." },
+  { "type": "line", "speaker": "Vermia", "text": "'We do not ask if you are coming / We do not ask if you were here / We press our ear against the turning / And call what we find worth — worth — worth—'" },
+  { "type": "line", "speaker": null, "text": "Mawla's harmony is low and steady. Dirtus's desk percussion is, for once, exactly right. Grubwin sings every word. You sing too." },
+  { "type": "jump", "scene": "act3_scene5" }
+]

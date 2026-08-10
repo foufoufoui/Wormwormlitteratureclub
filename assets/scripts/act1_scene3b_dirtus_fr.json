@@ -1,0 +1,17 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "C'est quoi sur la diapositive trois ?" },
+  { "type": "line", "speaker": "Dirtus", "text": "MERCI. La diapositive trois, c'est la liste des offrandes." },
+  { "type": "line", "speaker": "Grubwin", "text": "La quoi." },
+  { "type": "line", "speaker": "Dirtus", "text": "Chaque rituel d'invocation nécessite des offrandes. J'ai croisé les drops connus de Scatha sur Hypixel Skyblock pour déterminer ce qu'il valorise." },
+  { "type": "line", "speaker": "Mawla", "text": "Les trucs qui tombent quand tu le tues dans un jeu vidéo." },
+  { "type": "line", "speaker": "Dirtus", "text": "Les choses qui représentent son essence, oui. Donc : fil enchanté. Fragments de dragon — il va falloir trouver un substitut là, je n'en ai pas encore. Appât à vers, évidemment—" },
+  { "type": "line", "speaker": "Grubwin", "text": "Tu veux apporter de l'appât à vers dans le bâtiment scolaire." },
+  { "type": "line", "speaker": "Dirtus", "text": "De l'appât à vers cérémoniel. C'est différent." },
+  { "type": "line", "speaker": "Vermia", "text": "Quelle est la différence ?" },
+  { "type": "line", "speaker": "Dirtus", "text": "Je vais d'abord prononcer une bénédiction dessus." },
+  { "type": "line", "speaker": "Grubwin", "text": "C'est quand même juste de l'appât à vers." },
+  { "type": "line", "speaker": "Mawla", "text": "Où est-ce qu'on trouve de l'appât à vers dans cette ville ?" },
+  { "type": "line", "speaker": "Dirtus", "text": "Je connais quelqu'un. Il tient une boutique d'articles de pêche à deux rues d'ici. Il a été très compréhensif au sujet du contexte cérémoniel. Plus ou moins." },
+  { "type": "line", "speaker": null, "text": "Tu regardes Grubwin. Grubwin te regarde. Tu connais ce garçon depuis environ quinze minutes et tu ressens déjà avec lui un lien profond et muet." },
+  { "type": "jump", "scene": "act1_scene4" }
+]

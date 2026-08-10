@@ -1,0 +1,9 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Mawla — quelque chose a changé pour toi cette nuit-là ? Dans le parc ?" },
+  { "type": "line", "speaker": "Mawla", "text": "..." },
+  { "type": "line", "speaker": "Mawla", "text": "Ça fait huit mois que je viens ici. J'ai toujours dit que j'étais là pour l'écriture, pas pour la religion. Cette nuit-là — je sais pas. C'est difficile de se tenir dans un parc à chanter un hymne sous une pleine lune et de maintenir un détachement ironique complet." },
+  { "type": "line", "speaker": "[player]", "text": "Tu en avais envie ?" },
+  { "type": "line", "speaker": "Mawla", "text": "Du détachement ? Moins que je ne m'y attendais." },
+  { "type": "line", "speaker": null, "text": "Elle regarde son café. C'est tout ce qu'elle te donne. Mais c'est plus qu'elle ne donne habituellement à quiconque." },
+  { "type": "jump", "scene": "act2_scene2" }
+]

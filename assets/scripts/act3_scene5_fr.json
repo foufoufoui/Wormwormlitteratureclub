@@ -1,0 +1,129 @@
+[
+  {
+    "type": "bg",
+    "file": "clubroom_day"
+  },
+  {
+    "type": "music",
+    "file": "poem_writing"
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "normal",
+    "pos": "left",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "happy",
+    "pos": "left",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "normal",
+    "pos": "center",
+    "visible": false
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Quelques jours plus tard. Tu arrives tôt dans la salle du club. Seule Mawla est là."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Elle n'écrit pas. Elle regarde l'affiche du ver."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Salut."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Salut."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Tu t'assieds. La salle est silencieuse."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Je peux te dire quelque chose ?"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Ouais."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Avant ce club je n'écrivais pas vraiment. J'avais des pensées mais je ne savais pas quoi en faire. Elles restaient juste là, trop lourdes."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Maintenant je les écris et elles sont toujours lourdes mais elles sont — miennes, d'une façon différente. Contenues. Je peux les regarder."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "C'est ce que Vermia m'a donné. Je ne le lui dis pas parce qu'elle en ferait un événement religieux. Mais."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Tu devrais lui dire quand même."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "..."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Peut-être."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Encore un silence. L'affiche du ver regarde. La figurine en argile sur le rebord de la fenêtre, maintenant nettoyée, a l'air sage."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Je suis contente que tu sois dans ce club, [player]. C'est différent avec toi ici. Différent en mieux."
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Moi aussi."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Ouais."
+  },
+  {
+    "type": "actcard",
+    "title": "Acte IV",
+    "subtitle": "~ La Présentation Finale ~",
+    "next": "act4_scene1"
+  }
+]

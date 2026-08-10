@@ -1,0 +1,33 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "Vermia — what was it like writing your first poem? Before all of this." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Oh." },
+
+  { "type": "line", "speaker": null,
+    "text": "Something shifts in her expression. Not smaller — but different. More real, somehow, underneath the performance." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I was eleven. I wrote it about my dog. He'd died. And I didn't know what to do with how big that feeling was, it didn't fit anywhere, so I put it in a poem." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "And it still didn't fit perfectly but it was — closer. Like the poem was a shape I'd made and the feeling could almost curl up inside it." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "That's what Scatha is, actually. For me. He's a shape big enough to put enormous things in. A worm who is also all of it — the loss and the weight and the turning and the coming back up again." },
+
+  { "type": "line", "speaker": null,
+    "text": "She blinks. The performance comes back on like a light." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "ANYWAY. The dog's name was Noodle and he was VERY wormy in spirit and I believe he now dwells in Scatha's domain." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That was actually really beautiful, Vermia." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Do NOT make me cry at my own story, Grubwin, I will lose the thread of today's meeting." },
+
+  { "type": "jump", "scene": "act1_scene6" }
+]

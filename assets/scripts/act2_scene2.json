@@ -1,0 +1,117 @@
+[
+  {
+    "type": "bg",
+    "file": "clubroom_day"
+  },
+  {
+    "type": "music",
+    "file": "poem_writing"
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "confident",
+    "pos": "center",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "happy",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "normal",
+    "pos": "left",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Later that session. Grubwin went to get water. Mawla is writing — genuinely writing, the kind of writing that means she's not really here anymore."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Vermia sits down beside you. Not in her usual burst-of-energy way. Just quietly, like a normal person."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Can I ask you something?"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "Sure."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Your poem. From the exchange. The one you wrote about — whoever you wrote it about. I read all of them and yours had something."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I don't mean technically. I mean it felt like it came from somewhere real. And I'm wondering — before you came here, were you a writer? Did you think of yourself that way?"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "No. Not at all."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I wasn't either. Before the club. I just had feelings that were too big and words were the only containers that were the right size."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I think you're the same. You have things that don't fit anywhere, so you put them in poems. And they almost fit. And that's all any of us are doing."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You don't have anything to say to that. She smiles — not the High Poetess smile, the other one — and goes back to her journal."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Mawla, still writing, says without looking up:"
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "She's right, you know."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "She's annoying about it, but she's right."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I heard that."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "I know."
+  },
+  {
+    "type": "jump",
+    "scene": "act2_scene3"
+  }
+]

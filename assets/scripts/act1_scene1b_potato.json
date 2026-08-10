@@ -1,0 +1,45 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "...Wait, you summoned a potato?" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "No. A potato fell off a shelf. Vermia decided this was a divine response to the hymn we were performing." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "The shelf was on the NORTH wall. North is Scatha's sacred direction. It was not a coincidence." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "The building is slightly tilted. Everything rolls north." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "TILTED BY THE HAND OF SCATHA." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "It was tilted during construction in 1987." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Scatha works on a long timeline." },
+
+  { "type": "line", "speaker": null,
+    "text": "You look at Grubwin. He has the eyes of someone who has lost every single one of these arguments for two years straight and has simply made peace with it." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "What happened to the potato?" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "We ate it." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "We had a COMMUNION. There is a difference." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "We microwaved it and ate it with butter." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Sacred butter." },
+
+  { "type": "line", "speaker": null,
+    "text": "You decide you like this club. Before you can say anything else, the door opens." },
+
+  { "type": "jump", "scene": "act1_scene2" }
+]

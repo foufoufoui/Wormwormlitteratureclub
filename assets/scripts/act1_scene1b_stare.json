@@ -1,0 +1,39 @@
+[
+  { "type": "line", "speaker": null,
+    "text": "You say nothing. You just look at the worm. The crown. The halo. The tiny gold marker highlights on its... segments." },
+
+  { "type": "line", "speaker": null,
+    "text": "Something about it is weirdly compelling. You can't explain it." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "...They're doing it." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "They're just looking at the poster." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "That IS the first communion, Grubwin. They're receiving." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "They've been in the room for twenty seconds." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Scatha does not work on our schedule." },
+
+  { "type": "line", "speaker": null,
+    "text": "You finally look away from the poster. Both of them are staring at you. Grubwin looks alarmed. Vermia looks like she just witnessed a miracle." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I knew it. I KNEW it the moment I saw you. You're one of the sensitive ones. You can feel the worm energy." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "I just thought it was a cool drawing." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Yes. That's what they all say at first." },
+
+  { "type": "line", "speaker": null,
+    "text": "She says this with the satisfied tone of someone who has been proven right. Before you can clarify, the door opens." },
+
+  { "type": "jump", "scene": "act1_scene2" }
+]

@@ -1,0 +1,33 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "Honestly? This is a bad idea and I don't want to be part of it." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "THANK you." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "...Oh." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I respect that. You have clear boundaries. Scatha respects clear boundaries." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I also think... maybe Grubwin and [player] have a point. The tunnel is a step far. What if we did something in the park instead? Under the actual moon?" },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "Public space. No trespassing. The chalk Scathagram just goes on the ground." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "The moon will still be there either way." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "...Fine. Park summoning. I'll adjust the slides." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I said we're not doing a summoning." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "...I'll bring the snacks." },
+
+  { "type": "jump", "scene": "act1_scene9" }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "type": "bg",
+    "file": "park_sunset"
+  },
+  {
+    "type": "music",
+    "file": "scatha_theme"
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "blessed",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "resigned",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "confident",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Nuit de la Lune des Vers. Tu es dans le parc à vingt et une heures avec quatre personnes qui sont devenues, d'une façon ou d'une autre, la chose la plus étrange et la plus confortable de ta semaine."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Dirtus a dessiné le Scathagramme à la craie sur les pavés. Il est vraiment détaillé. Il est là depuis dix-neuf heures. Le ver au centre du diagramme est vraiment réussi — il est meilleur artiste qu'il ne le laisse paraître."
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Je tiens à noter que je trouve ça absurde et je ne peux pas non plus nier que le travail à la craie est impressionnant."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "J'ai pratiqué le ver pendant deux semaines."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Tu t'es entraîné à dessiner un ver pendant deux semaines pour un rituel qui ne marchera pas."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "Je m'entraînais pour quand il marchera. Scatha mérite un diagramme de qualité."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Bien. Tout le monde en position. Les positions du Scathagramme sont sur la diapositive huit, que Dirtus a imprimée et plastifiée pour chacun d'entre nous."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Il les a plastifiées."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "Les documents rituels doivent être durables."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Tu prends ta position. La lune est là — pleine et extrêmement présente au-dessus de la ligne des arbres. Le parc est vide sauf pour un promeneur de chien au loin qui vous observe longuement avant de continuer à marcher."
+  },
+  {
+    "type": "bg",
+    "file": "park_scatha"
+  },
+  {
+    "type": "wait",
+    "seconds": 10
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "confident",
+    "pos": "center",
+    "visible": false
+  },
+  {
+    "type": "sfx",
+    "file": "scatha_bless"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Le Grand Hymne. Ensemble. Sur mon signal."
+  },
+  {
+    "type": "music",
+    "file": "clubroom_hymn"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Ô Scatha, sous la terre et la pierre..."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Vous le chantez tous. Même Grubwin, qui connaît chaque mot et ne prend plus la peine de faire semblant du contraire. Ta propre voix te surprend — tu l'as appris maintenant toi aussi, sans le vouloir. C'est arrivé progressivement, comme la plupart des choses importantes."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Le parc est assez silencieux pour que ça porte. La lune ne bouge pas. Rien ne se passe. Et tout est—"
+  },
+  {
+    "type": "music",
+    "file": "scatha_theme"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Un ver apparaît au bord du cercle de craie."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "C'est juste un ver, Dirtus. Le sol est humide. Ils remontent quand—"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "..."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "..."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "C'est un très grand ver."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "C'est un ver de taille normale !"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "*très doucement* Scatha."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "C'est un VER, Dirtus—"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Je pleure."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Tu pleures toujours—"
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Grubwin."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Quoi."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Laisse-les avoir ce moment."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Le ver traverse lentement la ligne de craie et disparaît dans l'herbe. Dirtus est pétrifié. Vermia pleure vraiment maintenant — pas des larmes de représentation, les vraies. Mawla pose une main sur son épaule."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Tu regardes Grubwin."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "...C'était un grand ver."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Vous restez tous dans le parc encore une heure. Dirtus mange trois des snacks de Grubwin sans demander et personne ne dit rien. La lune reste là tout le temps."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "En rentrant chez toi, tu penses : tu ne sais pas si Scatha est réel. Tu ne sais pas si tout ça a un sens. Mais il y a quelque chose en-dessous — sous la blague et l'affiche et les journaux faits main — qui est absolument réel."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Tu penses que Mawla avait raison. Tu penses que Grubwin le sait aussi, même s'il ne le dit pas."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Tu poses ton oreille métaphorique sur la terre métaphorique, et ce que tu y trouves — tu l'appelles valeur."
+  },
+  {
+    "type": "music",
+    "file": "ending_credits"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "— Fin de l'Acte 1 —"
+  },
+  {
+    "type": "actcard",
+    "title": "Acte II",
+    "subtitle": "~ La Convergence Approche ~",
+    "next": "act2_scene1"
+  }
+]

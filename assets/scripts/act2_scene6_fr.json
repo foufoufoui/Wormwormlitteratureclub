@@ -1,0 +1,23 @@
+[
+  { "type": "bg", "file": "clubroom_sunset" },
+  { "type": "music", "file": "poem_writing" },
+  { "type": "char", "name": "Dirtus",  "expr": "triumphant", "pos": "center", "visible": true },
+  { "type": "char", "name": "Vermia",  "expr": "blessed",    "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "surprised",  "pos": "left",   "visible": false },
+  { "type": "char", "name": "Mawla",   "expr": "normal",     "pos": "right",  "visible": true },
+  { "type": "line", "speaker": null, "text": "Après que tu aies fini et posé ton poème sur la pile, Dirtus lit les quatre en séquence. Sa voix change quand il lit les mots des autres — plus lente, soigneuse." },
+  { "type": "line", "speaker": null, "text": "Puis il ajoute le sien. Son poème est le plus long. Il parle de ce que fait un héraut quand le roi n'est pas encore arrivé : tu continues à annoncer quand même. Tu fais confiance que l'arrivée viendra. Tu rends l'annonce si bonne que quand le roi se montre, il se sentira le bienvenu." },
+  { "type": "line", "speaker": "Vermia", "text": "Dirtus. C'était—" },
+  { "type": "line", "speaker": "Dirtus", "text": "Semaine un terminée. Encore quatre." },
+  { "type": "line", "speaker": "Vermia", "text": "C'était beau." },
+  { "type": "line", "speaker": "Dirtus", "text": "Merci. Je m'entraînais." },
+  { "type": "char", "name": "Grubwin", "expr": "thinking", "pos": "left", "visible": true },
+  { "type": "line", "speaker": "Grubwin", "text": "Je veux dire quelque chose." },
+  { "type": "line", "speaker": "Grubwin", "text": "Ça fait deux ans que je suis là et on n'a jamais — on n'a jamais fait quelque chose comme ça. Les quatre semaines en même temps. Nous cinq. Ensemble." },
+  { "type": "line", "speaker": "Grubwin", "text": "Je ne sais pas si Scatha est réel. Je ne sais toujours pas. Mais je sais que ça, c'est réel." },
+  { "type": "line", "speaker": null, "text": "Il montre la pile de cinq poèmes d'un geste." },
+  { "type": "line", "speaker": "Grubwin", "text": "Ça, c'est réel." },
+  { "type": "line", "speaker": null, "text": "Personne ne dit rien pendant un moment. Puis Vermia hoche la tête, très sérieusement." },
+  { "type": "line", "speaker": "Vermia", "text": "Oui. C'est exactement ça." },
+  { "type": "jump", "scene": "act2_scene7" }
+]

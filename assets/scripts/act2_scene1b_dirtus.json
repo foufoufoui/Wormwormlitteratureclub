@@ -1,0 +1,23 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "Where's Dirtus?" },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "He texted. He says he's 'in the preparation phase'." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "Of what?" },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "He didn't specify. That's the part that worries me." },
+  { "type": "line", "speaker": "Mawla",
+    "text": "Last time he was in a preparation phase he built the Scathagram slide deck. Before that he bought the worm bait." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Before that he tried to register 'Scatha' as an official club deity with the student council." },
+  { "type": "line", "speaker": "[player]",
+    "text": "What happened?" },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "The student council secretary wrote back asking for a one-page summary of the deity's 'core values and mission statement'." },
+  { "type": "line", "speaker": "Mawla",
+    "text": "Dirtus sent eight pages." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "They said they'd 'take it under advisement'. That was four months ago." },
+  { "type": "jump", "scene": "act2_scene2" }
+]

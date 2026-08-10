@@ -1,0 +1,51 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "Mawla — how do you actually feel about all of this?" },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "Genuinely?" },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "Genuinely." },
+
+  { "type": "line", "speaker": null,
+    "text": "She considers this. She takes a sip of her coffee." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I think Scatha isn't real. I think Vermia knows Scatha isn't real. I think the whole thing is kind of a beautiful fiction that she built to make writing feel like it matters more." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "And I think — if you squint at it right — it does make writing feel like it matters more. So." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "That is the most heretical thing you've ever said and also the nicest." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "You're welcome." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I've been here two years and I've never heard you put it that way." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "New person asked. Felt like an honest answer kind of situation." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "For the record I think Scatha IS real and I think my summoning plan is going to prove it." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "For the record I support your right to believe that." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Thank you Mawla." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I don't think it'll work though." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I respect your doubt. It will make the success sweeter." },
+
+  { "type": "line", "speaker": null,
+    "text": "You think you might actually like everyone here. That's alarming given that you arrived twenty minutes ago, but here you are." },
+
+  { "type": "jump", "scene": "act1_scene4" }
+]

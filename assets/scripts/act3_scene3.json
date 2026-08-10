@@ -1,0 +1,26 @@
+[
+  { "type": "bg",    "file": "underground" },
+  { "type": "music", "file": "scatha_theme" },
+  { "type": "char", "name": "Vermia",  "expr": "blessed",  "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "normal",   "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",   "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "normal",   "pos": "center", "visible": false },
+
+  { "type": "line", "speaker": null, "text": "Dirtus is sitting on the earth inside the Scathagram, very still. He's not crying. He's just very present in a way he isn't usually." },
+  { "type": "line", "speaker": "Vermia", "text": "Dirtus. How do you feel?" },
+  { "type": "line", "speaker": "Dirtus", "text": "Like I've been working toward something for a long time. And I don't know if it's done or if it's just starting." },
+  { "type": "line", "speaker": "Grubwin","text": "That's — a very reasonable thing to feel." },
+  { "type": "line", "speaker": "Dirtus", "text": "Thank you, Grubwin." },
+  { "type": "line", "speaker": "Grubwin","text": "You're welcome." },
+  { "type": "line", "speaker": "Mawla",  "text": "For what it's worth. Whatever that was — it happened because all five of us showed up. Wrote things. Meant them." },
+  { "type": "line", "speaker": "Mawla",  "text": "That's not nothing. That's not even a little nothing." },
+  { "type": "line", "speaker": "Vermia", "text": "Mawla has been saying the most profound things lately." },
+  { "type": "line", "speaker": "Mawla",  "text": "Don't tell anyone." },
+  { "type": "line", "speaker": null, "text": "The water is still rising slowly in the channels. The worms are still there. The moon is overhead. Nobody moves for a while." },
+  { "type": "line", "speaker": null, "text": "And then Grubwin, without any announcement, starts humming the Grand Hymn." },
+  { "type": "music", "file": "clubroom_hymn" },
+  { "type": "line", "speaker": null, "text": "One by one, everyone joins. In the old greenhouse, in the moonlight, surrounded by worms that came up through wet earth." },
+  { "type": "line", "speaker": null, "text": "This is, whatever else it is, exactly enough." },
+
+  { "type": "jump", "scene": "act3_scene4" }
+]

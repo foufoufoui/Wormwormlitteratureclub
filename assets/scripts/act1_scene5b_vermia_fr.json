@@ -1,0 +1,13 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Vermia — c'était quoi d'écrire ton premier poème ? Avant tout ça." },
+  { "type": "line", "speaker": "Vermia", "text": "Oh." },
+  { "type": "line", "speaker": null, "text": "Quelque chose se déplace dans son expression. Pas plus petit — mais différent. Plus réel, d'une certaine façon, sous la représentation." },
+  { "type": "line", "speaker": "Vermia", "text": "J'avais onze ans. Je l'ai écrit à propos de mon chien. Il était mort. Et je ne savais pas quoi faire de ce sentiment immense, il ne rentrait nulle part, alors je l'ai mis dans un poème." },
+  { "type": "line", "speaker": "Vermia", "text": "Et il ne rentrait toujours pas parfaitement mais c'était — plus proche. Comme si le poème était une forme que j'avais créée et que le sentiment pouvait presque s'y lover." },
+  { "type": "line", "speaker": "Vermia", "text": "C'est ce qu'est Scatha, en fait. Pour moi. Il est une forme assez grande pour y mettre des choses immenses. Un ver qui est aussi tout ça — la perte et le poids et le fait de tourner et de remonter à la surface." },
+  { "type": "line", "speaker": null, "text": "Elle cligne des yeux. La représentation se rallume comme une lumière." },
+  { "type": "line", "speaker": "Vermia", "text": "BREF. Le chien s'appelait Nouille et il était TRÈS vermiforme dans l'âme et je crois qu'il habite maintenant dans le domaine de Scatha." },
+  { "type": "line", "speaker": "Grubwin", "text": "C'était vraiment beau, Vermia." },
+  { "type": "line", "speaker": "Vermia", "text": "Ne me fais PAS pleurer pour ma propre histoire, Grubwin, je vais perdre le fil de la réunion d'aujourd'hui." },
+  { "type": "jump", "scene": "act1_scene6" }
+]

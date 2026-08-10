@@ -1,0 +1,11 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Je suis [player]. Ravi·e de vous rencontrer tous les deux." },
+  { "type": "line", "speaker": "Vermia", "text": "OHHHH ! Un·e calme ! Scatha ADORE l'énergie posée ! Ça signifie que tu es spirituellement solide. Comme une bonne terre arable !" },
+  { "type": "line", "speaker": "Grubwin", "text": "La terre arable n'est pas un trait de personnalité, Vermia." },
+  { "type": "line", "speaker": "Vermia", "text": "Tout est un trait de personnalité si on y croit assez fort." },
+  { "type": "line", "speaker": "Grubwin", "text": "C'est faux aussi. Salut, [player]. Bienvenue. Ne la laisse pas t'assigner un élément spirituel le premier jour. Elle va essayer." },
+  { "type": "line", "speaker": "Vermia", "text": "Je n'allais pas le faire le premier jour. J'allais attendre la fin de la réunion." },
+  { "type": "line", "speaker": "Grubwin", "text": "..." },
+  { "type": "line", "speaker": null, "text": "Avant que tu puisses demander ce qu'est un élément spirituel, ou pourquoi Vermia attrape déjà un petit carnet, la porte s'ouvre à nouveau." },
+  { "type": "jump", "scene": "act1_scene2" }
+]

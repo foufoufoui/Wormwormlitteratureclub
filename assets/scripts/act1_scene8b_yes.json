@@ -1,0 +1,24 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "I think we should do it. Worst case it doesn't work and it's a good story." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "YES. THE NEW ONE GETS IT. [player] has WORM COURAGE." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Worm courage isn't a thing." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "It is NOW." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "For the record I think this is a bad idea. Also for the record I'll be there." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "..." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I hate all of you. I'll bring snacks." },
+
+  { "type": "jump", "scene": "act1_scene9" }
+]

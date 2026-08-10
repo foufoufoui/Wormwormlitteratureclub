@@ -1,0 +1,55 @@
+[
+  { "type": "bg",    "file": "clubroom_day" },
+  { "type": "music", "file": "tension" },
+
+  { "type": "char", "name": "Dirtus",  "expr": "confident", "pos": "center", "visible": true },
+  { "type": "char", "name": "Vermia",  "expr": "surprised", "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "nervous",   "pos": "left",   "visible": false },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+
+  { "type": "line", "speaker": null,
+    "text": "The following week. Dirtus has been in preparation phase for eleven days. Today he arrives with something large under a cloth." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "The Scatha Relay." },
+  { "type": "line", "speaker": "Vermia",
+    "text": "What is the Scatha Relay." },
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Each of us writes one poem per week, for four weeks. The poems build on each other — each one responds to the one before it. Together they form a complete summoning text." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "A summoning text." },
+
+  { "type": "char", "name": "Grubwin", "expr": "nervous", "pos": "left", "visible": true },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "The worm came to the circle because we made the right kind of noise together. The Relay is the same idea but amplified. Four people, four weeks, one coherent ritual text." },
+  { "type": "line", "speaker": "Dirtus",
+    "text": "And then, at the end of the four weeks—" },
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Slide nine." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "He added slide nine." },
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Slide nine is the Full Convergence Event." },
+
+  { "type": "line", "speaker": null,
+    "text": "He removes the cloth. Beneath it is a new, larger version of the Scathagram — this one has all five names in the circle. Yours is there. He added it." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "You put [player]'s name in the ritual diagram without asking." },
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I was going to ask today. Retroactively." },
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That's not how consent works." },
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Scatha works on a different timeline." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I love the Relay concept. I want to do it. But [player] gets a vote. Everyone does." },
+
+  { "type": "choice", "options": [
+    { "label": "I'm in. Let's do the full Relay.", "jump": "act2_scene4b_yes" },
+    { "label": "I want to understand more first.", "jump": "act2_scene4b_questions" },
+    { "label": "This feels like it's going somewhere intense.", "jump": "act2_scene4b_hesitate" }
+  ]}
+]

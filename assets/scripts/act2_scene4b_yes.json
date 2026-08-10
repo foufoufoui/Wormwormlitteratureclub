@@ -1,0 +1,11 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "I'm in. Let's do the full Relay." },
+  { "type": "line", "speaker": "Dirtus", "text": "THE NEW ONE HAS WORM COURAGE." },
+  { "type": "line", "speaker": "Vermia", "text": "WORM COURAGE! I said that first!" },
+  { "type": "line", "speaker": "Grubwin", "text": "Fine. I'm in. But I'm writing about something real, not about Scatha specifically." },
+  { "type": "line", "speaker": "Dirtus", "text": "As long as it rhymes with something I can respond to." },
+  { "type": "line", "speaker": "Mawla", "text": "I'm in. Dirtus — I'm writing free verse. Don't try to make it rhyme-compatible." },
+  { "type": "line", "speaker": "Dirtus", "text": "I respect your artistic choice. It will be challenging." },
+  { "type": "line", "speaker": "Mawla", "text": "Good." },
+  { "type": "jump", "scene": "act2_scene5" }
+]

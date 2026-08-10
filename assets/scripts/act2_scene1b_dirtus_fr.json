@@ -1,0 +1,13 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Où est Dirtus ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "Il a envoyé un message. Il dit qu'il est 'en phase de préparation'." },
+  { "type": "line", "speaker": "Vermia", "text": "Pour quoi ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "Il n'a pas précisé. C'est ça qui m'inquiète." },
+  { "type": "line", "speaker": "Mawla", "text": "La dernière fois qu'il était en phase de préparation il a construit la présentation du Scathagramme. Avant ça il a acheté l'appât à vers." },
+  { "type": "line", "speaker": "Grubwin", "text": "Avant ça il a essayé d'enregistrer 'Scatha' comme divinité officielle du club auprès du conseil des élèves." },
+  { "type": "line", "speaker": "[player]", "text": "Qu'est-ce qui s'est passé ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "La secrétaire du conseil a répondu en demandant un résumé d'une page sur les 'valeurs fondamentales et la mission' de la divinité." },
+  { "type": "line", "speaker": "Mawla", "text": "Dirtus a envoyé huit pages." },
+  { "type": "line", "speaker": "Grubwin", "text": "Ils ont dit qu'ils allaient 'l'examiner'. C'était il y a quatre mois." },
+  { "type": "jump", "scene": "act2_scene2" }
+]

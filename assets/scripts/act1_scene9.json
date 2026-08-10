@@ -1,0 +1,262 @@
+[
+  {
+    "type": "bg",
+    "file": "park_sunset"
+  },
+  {
+    "type": "music",
+    "file": "scatha_theme"
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "blessed",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "resigned",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "confident",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Worm Moon night. You're standing in the park at nine PM with four people who have become, somehow, the strangest and most comfortable thing in your week."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Dirtus has drawn the Scathagram in chalk on the paving stones. It's actually quite detailed. He's been here since seven. The worm in the center of the diagram looks genuinely good — he's a better artist than he lets on."
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "I want it noted that I think this is absurd and I also can't deny the chalk work is impressive."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "I've been practicing the worm for two weeks."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "You practiced drawing a worm for two weeks for a ritual that won't work."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "I practiced for when it does work. Scatha deserves a quality diagram."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Okay. Everyone in position. Scathagram positions are on slide eight, which Dirtus has printed and laminated for each of us."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "He laminated them."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "Ritual documents should be durable."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You take your position. The moon is up — full and extremely present above the treeline. The park is empty except for a distant dog walker who gives your group a long look and continues walking."
+  },
+  {
+    "type": "bg",
+    "file": "park_scatha"
+  },
+  {
+    "type": "wait",
+    "seconds": 10
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "confident",
+    "pos": "center",
+    "visible": false
+  },
+  {
+    "type": "sfx",
+    "file": "scatha_bless"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "The Grand Hymn. Together. On my count."
+  },
+  {
+    "type": "music",
+    "file": "clubroom_hymn"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "O Scatha, beneath the soil and stone..."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You all sing it. Even Grubwin, who knows every word and doesn't bother pretending otherwise anymore. Your own voice surprises you — you've learned it by now too, without meaning to. It happened gradually, like most important things."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The park is quiet enough that it carries. The moon doesn't move. Nothing happens. And everything is—"
+  },
+  {
+    "type": "music",
+    "file": "scatha_theme"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "A worm appears on the edge of the chalk circle."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "That's just a worm, Dirtus. The ground is damp. They come up when—"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "..."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "..."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "It is a very large worm."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "It's a normal-sized worm!"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "*very quietly* Scatha."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "It's a WORM, Dirtus—"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I'm crying."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "You always cry—"
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Grubwin."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "What."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Let them have this."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The worm moves slowly across the chalk line and disappears into the grass. Dirtus is stock still. Vermia is crying genuinely now — not performance tears, the real ones. Mawla puts a hand on her shoulder."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You look at Grubwin."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "...It was a big worm."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You all stay in the park for another hour. Dirtus eats three of Grubwin's snacks without asking and nobody says anything about it. The moon stays up the whole time."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Walking home, you think: you don't know if Scatha is real. You don't know if any of it means anything. But there is something underneath — beneath the joke and the poster and the handmade journals — that is absolutely real."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You think Mawla was right. You think Grubwin knows it too, even if he won't say so."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You press your metaphorical ear to the metaphorical earth, and you call what you find there — worth."
+  },
+  {
+    "type": "music",
+    "file": "ending_credits"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "— End of Act 1 —"
+  },
+  {
+    "type": "actcard",
+    "title": "Act II",
+    "subtitle": "~ The Convergence Approaches ~",
+    "next": "act2_scene1"
+  }
+]

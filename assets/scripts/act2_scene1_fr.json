@@ -1,0 +1,32 @@
+[
+  { "type": "bg", "file": "clubroom_day" },
+  { "type": "music", "file": "clubroom_normal" },
+  { "type": "line", "speaker": null, "text": "Acte Deux. Trois semaines après la Lune des Vers." },
+  { "type": "line", "speaker": null, "text": "Tu es là depuis assez longtemps maintenant pour que la salle du club semble différente. Pas étrange — installée. L'affiche du ver est la même qu'avant. La figurine en argile sur le rebord de la fenêtre a ramassé un peu de poussière. Personne ne l'a nettoyée. Grubwin a considéré le faire, a reposé le chiffon, et est retourné à son clipboard." },
+  { "type": "line", "speaker": null, "text": "Quelque chose a changé depuis le parc. Dirtus n'a pas annoncé si Scatha était apparu ou non. Il s'est juste fait plus silencieux que d'habitude pendant quelques jours, puis il est revenu avec une nouvelle diapositive. Personne n'a demandé." },
+  { "type": "char", "name": "Vermia",  "expr": "thinking", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "normal",   "pos": "left",   "visible": true },
+  { "type": "line", "speaker": "Vermia", "text": "Je pense au Grand Hymne." },
+  { "type": "line", "speaker": "Grubwin", "text": "Dans quel sens." },
+  { "type": "line", "speaker": "Vermia", "text": "Je veux en écrire un deuxième. Le premier parle d'appeler Scatha. Le deuxième devrait parler de ce qu'on fait après." },
+  { "type": "line", "speaker": "Grubwin", "text": "Après quoi ?" },
+  { "type": "line", "speaker": "Vermia", "text": "Après qu'il vienne." },
+  { "type": "line", "speaker": "Grubwin", "text": "Il n'est pas venu." },
+  { "type": "line", "speaker": "Vermia", "text": "Le ver est venu." },
+  { "type": "line", "speaker": "Grubwin", "text": "Un ver est venu." },
+  { "type": "line", "speaker": "Vermia", "text": "Un ver est venu dans le cercle. Au moment où on chantait. Sous la Lune des Vers. Je ne dis pas que c'était Scatha en manifestation complète. Je dis que c'était — adjacent." },
+  { "type": "line", "speaker": "Grubwin", "text": "Adjacent à Scatha." },
+  { "type": "line", "speaker": "Vermia", "text": "Comme un éclaireur. Ou une signature. Ou une virgule. Scatha faisait un geste." },
+  { "type": "char", "name": "Mawla", "expr": "normal", "pos": "right", "visible": true },
+  { "type": "line", "speaker": "Mawla", "text": "Je pense que Vermia est sur quelque chose, en fait." },
+  { "type": "line", "speaker": "Grubwin", "text": "Je t'en prie non." },
+  { "type": "line", "speaker": "Mawla", "text": "Pas au sens littéral. Mais — symboliquement. On a entrepris quelque chose ensemble et quelque chose s'est passé. Même si ce quelque chose était juste un ver. C'est une sorte de réponse." },
+  { "type": "line", "speaker": "Vermia", "text": "MAWLA." },
+  { "type": "line", "speaker": "Mawla", "text": "Je l'appelle symbolique. Ne pousse pas." },
+  { "type": "line", "speaker": null, "text": "C'est la chose la plus proche du côté Scatha que Mawla ait jamais penchée. Tu le notes." },
+  { "type": "choice", "options": [
+    { "label": "Demander à Vermia à quoi ressemblerait le deuxième hymne", "jump": "act2_scene1b_hymn2" },
+    { "label": "Demander à Mawla ce qui a changé pour elle cette nuit-là", "jump": "act2_scene1b_mawla" },
+    { "label": "Demander où est Dirtus", "jump": "act2_scene1b_dirtus" }
+  ]}
+]

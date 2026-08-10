@@ -1,0 +1,121 @@
+[
+  {
+    "type": "bg",
+    "file": "underground"
+  },
+  {
+    "type": "music",
+    "file": "scatha_theme"
+  },
+  {
+    "type": "char",
+    "name": "Dirtus",
+    "expr": "triumphant",
+    "pos": "center",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Vermia",
+    "expr": "surprised",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "nervous",
+    "pos": "left",
+    "visible": false
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The location."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "It is, genuinely, a remarkable find. An abandoned greenhouse on the edge of the school grounds — glass ceiling, most panes intact, floor of bare earth, old irrigation channels forming natural concentric rings around a central clear space. It looks like it was built for a Scathagram."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "OBSERVE."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "...Dirtus."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "The rings. The earth floor. The glass ceiling so the moon comes directly through. It's perfect."
+  },
+  {
+    "type": "char",
+    "name": "Grubwin",
+    "expr": "nervous",
+    "pos": "left",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "This is actually incredible. I hate that it's incredible."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Where did you find this?"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "I asked the groundskeeper. He said it hasn't been used in fifteen years. He said we could use it for club activities if we didn't break anything."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "You just asked him?"
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "I prepared a brief presentation. Only four slides this time."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "He said yes to four slides."
+  },
+  {
+    "type": "line",
+    "speaker": "Dirtus",
+    "text": "He seemed interested in the worm aspect. He's a groundskeeper. There was natural connection."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "You stand in the center of the concentric earth rings. The light comes through the glass in long late-afternoon beams. It is, genuinely, perfect."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Next week: the Full Convergence Event."
+  },
+  {
+    "type": "actcard",
+    "title": "Act III",
+    "subtitle": "~ Something Has Changed ~",
+    "next": "act3_scene1"
+  }
+]

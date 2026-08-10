@@ -1,0 +1,30 @@
+[
+  { "type": "bg", "file": "clubroom_day" },
+  { "type": "music", "file": "tension" },
+  { "type": "char", "name": "Dirtus",  "expr": "confident", "pos": "center", "visible": true },
+  { "type": "char", "name": "Vermia",  "expr": "surprised", "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "nervous",   "pos": "left",   "visible": false },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+  { "type": "line", "speaker": null, "text": "La semaine suivante. Dirtus est en phase de préparation depuis onze jours. Il arrive aujourd'hui avec quelque chose de grand sous un tissu." },
+  { "type": "line", "speaker": "Dirtus", "text": "Le Relais Scatha." },
+  { "type": "line", "speaker": "Vermia", "text": "C'est quoi le Relais Scatha." },
+  { "type": "line", "speaker": "Dirtus", "text": "Chacun d'entre nous écrit un poème par semaine, pendant quatre semaines. Les poèmes se construisent les uns sur les autres — chacun répond au précédent. Ensemble ils forment un texte rituel complet." },
+  { "type": "line", "speaker": "Grubwin", "text": "Un texte rituel." },
+  { "type": "char", "name": "Grubwin", "expr": "nervous", "pos": "left", "visible": true },
+  { "type": "line", "speaker": "Dirtus", "text": "Le ver est venu dans le cercle parce qu'on a fait le bon genre de bruit ensemble. Le Relais c'est la même idée mais amplifiée. Quatre personnes, quatre semaines, un texte rituel cohérent." },
+  { "type": "line", "speaker": "Dirtus", "text": "Et ensuite, à la fin des quatre semaines—" },
+  { "type": "line", "speaker": "Dirtus", "text": "Diapositive neuf." },
+  { "type": "line", "speaker": "Grubwin", "text": "Il a ajouté une diapositive neuf." },
+  { "type": "line", "speaker": "Dirtus", "text": "La diapositive neuf c'est l'Événement de Convergence Totale." },
+  { "type": "line", "speaker": null, "text": "Il retire le tissu. En dessous se trouve une nouvelle version, plus grande, du Scathagramme — celui-ci a les cinq noms dans le cercle. Le tien est là. Il l'a ajouté." },
+  { "type": "line", "speaker": "Mawla", "text": "Tu as mis le nom de [player] dans le diagramme rituel sans demander." },
+  { "type": "line", "speaker": "Dirtus", "text": "J'allais demander aujourd'hui. Rétroactivement." },
+  { "type": "line", "speaker": "Grubwin", "text": "Ce n'est pas comme ça que fonctionne le consentement." },
+  { "type": "line", "speaker": "Dirtus", "text": "Scatha fonctionne sur un calendrier différent." },
+  { "type": "line", "speaker": "Vermia", "text": "J'adore le concept du Relais. Je veux le faire. Mais [player] a le droit de vote. Tout le monde l'a." },
+  { "type": "choice", "options": [
+    { "label": "Je suis partant·e. Faisons le Relais complet.", "jump": "act2_scene4b_yes" },
+    { "label": "Je veux d'abord mieux comprendre.", "jump": "act2_scene4b_questions" },
+    { "label": "Ça me semble mener vers quelque chose d'intense.", "jump": "act2_scene4b_hesitate" }
+  ]}
+]

@@ -1,0 +1,10 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "À quoi ressemblerait le deuxième hymne ?" },
+  { "type": "line", "speaker": "Vermia", "text": "Différent. Plus lent. Le premier déborde d'énergie d'appel — viens, lève-toi, entends-nous. Le deuxième serait juste — nous voilà. On est toujours là. Est-ce que c'est suffisant ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "C'est presque une chanson normale." },
+  { "type": "line", "speaker": "Vermia", "text": "Toutes les chansons normales sont secrètement des hymnes. C'est ma position." },
+  { "type": "line", "speaker": "Mawla", "text": "Écris-le. Je t'aiderai avec la mélodie si tu veux." },
+  { "type": "line", "speaker": "Vermia", "text": "MAWLA." },
+  { "type": "line", "speaker": "Mawla", "text": "J'ai dit ce que j'ai dit." },
+  { "type": "jump", "scene": "act2_scene2" }
+]

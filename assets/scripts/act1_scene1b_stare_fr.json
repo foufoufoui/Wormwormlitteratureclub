@@ -1,0 +1,15 @@
+[
+  { "type": "line", "speaker": null, "text": "Tu ne dis rien. Tu regardes juste le ver. La couronne. Le halo. Les petits reflets dorés au marqueur sur ses... segments." },
+  { "type": "line", "speaker": null, "text": "Il y a quelque chose d'étrangement captivant là-dedans. Tu ne peux pas l'expliquer." },
+  { "type": "line", "speaker": "Vermia", "text": "...Il/Elle le fait." },
+  { "type": "line", "speaker": "Grubwin", "text": "Il/Elle regarde juste l'affiche." },
+  { "type": "line", "speaker": "Vermia", "text": "C'est ça la première communion, Grubwin. Il/Elle reçoit." },
+  { "type": "line", "speaker": "Grubwin", "text": "Il/Elle est dans la pièce depuis vingt secondes." },
+  { "type": "line", "speaker": "Vermia", "text": "Scatha ne travaille pas selon notre emploi du temps." },
+  { "type": "line", "speaker": null, "text": "Tu détaches enfin les yeux de l'affiche. Tous les deux te fixent. Grubwin a l'air alarmé. Vermia ressemble à quelqu'un qui vient d'assister à un miracle." },
+  { "type": "line", "speaker": "Vermia", "text": "Je le savais. Je le SAVAIS dès l'instant où je t'ai vu·e. Tu fais partie des sensibles. Tu peux ressentir l'énergie du ver." },
+  { "type": "line", "speaker": "[player]", "text": "Je trouvais juste que c'était un beau dessin." },
+  { "type": "line", "speaker": "Vermia", "text": "Oui. C'est ce qu'ils disent tous au début." },
+  { "type": "line", "speaker": null, "text": "Elle dit ça avec le ton satisfait de quelqu'un qui vient d'avoir raison. Avant que tu puisses clarifier, la porte s'ouvre." },
+  { "type": "jump", "scene": "act1_scene2" }
+]

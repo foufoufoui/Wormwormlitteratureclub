@@ -1,0 +1,172 @@
+[
+  {
+    "type": "music",
+    "file": "clubroom_normal"
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": false
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "The door swings open. A girl with worm-segment earrings walks in holding a coffee cup. She scans the room — you, Vermia, Grubwin — and arrives at a look of calm, practiced sympathy directed entirely at you."
+  },
+  {
+    "type": "char",
+    "name": "Mawla",
+    "expr": "normal",
+    "pos": "right",
+    "visible": true
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "New one?"
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "New DEVOTEE."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Mawla. I joined this club eight months ago because it seemed funny. I'm still here. I've stopped asking questions about that."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "The poems are actually pretty good though. That part's real."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Mawla is our best writer. She won't say that herself, but it's true."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "I write okay poems about a worm deity. The bar is specific."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "They are TRANSCENDENT poems. The one you wrote about Scatha's burrowing? I cried."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "You cry at everything, Vermia."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "I am spiritually open!"
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Mawla sits down at a desk near the window and opens a notebook. She doesn't say anything else. Somehow this is the most comfortable energy in the room."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "OKAY! Now that everyone is here — oh wait, where's Dirtus?"
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "He texted me. He says he'll be late because he's 'preparing something important for the club'."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "That's terrifying."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Yeah."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "It's EXCITING. Dirtus always brings passion to the club! Even if last time the passion was a three-meter scroll of hymn lyrics that he'd glued together with actual glue that was still wet."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "It got on my clipboard."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Scatha works in mysterious ways."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Vermia claps her hands together and turns to face you with the full force of her enthusiasm."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Alright! [player]! Today is a very special day because you are joining us, which means it is YOUR first poem day! Every new member writes a poem for Scatha on their first day!"
+  },
+  {
+    "type": "line",
+    "speaker": "[player]",
+    "text": "I've never written a poem before."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Scatha doesn't care about skill. He cares about SINCERITY."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Also you can just write about something you like. It doesn't have to be about Scatha specifically. The theme is broad."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "The theme is Scatha. It's always Scatha."
+  },
+  {
+    "type": "line",
+    "speaker": "Grubwin",
+    "text": "Last week you gave me positive feedback on a poem I wrote about my grandmother."
+  },
+  {
+    "type": "line",
+    "speaker": "Vermia",
+    "text": "Your grandmother had wormy energy. It was an honorary Scatha poem."
+  },
+  {
+    "type": "line",
+    "speaker": "Mawla",
+    "text": "Just write whatever feels true. That's all any poem is."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "She says it simply, not looking up from her notebook. But somehow it lands."
+  },
+  {
+    "type": "line",
+    "speaker": null,
+    "text": "Vermia hands you a piece of paper and a pen. It smells faintly of soil."
+  },
+  {
+    "type": "poem"
+  },
+  {
+    "type": "jump",
+    "scene": "act1_scene3"
+  }
+]

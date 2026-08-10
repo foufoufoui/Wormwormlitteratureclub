@@ -1,0 +1,73 @@
+[
+  { "type": "line", "speaker": "[player]",
+    "text": "Actually... I want to hear the Grand Hymn." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Oh no." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Oh YES." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I CALL PERCUSSION DUTY." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "There is no percussion in the Grand Hymn." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I will create percussion. With my hands. On this desk." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "I'll sing it if Vermia starts. But I'm not doing the harmony part alone again. Last time a teacher walked by." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "She looked MOVED." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "She looked confused. There's a difference." },
+
+  { "type": "line", "speaker": null,
+    "text": "Vermia clears her throat. She stands straighter. Her expression shifts into something genuinely serious — reverent, almost. You realize with mild alarm that she is actually about to sing." },
+
+  { "type": "music", "file": "clubroom_hymn" },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "O Scatha, beneath the soil and stone / You coil and crown, you dwell alone / But we who scratch the surface thin / We call you up, we call you in—" },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "*desk percussion intensifies*" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "Stop." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I cannot stop. I am inspired." },
+
+  { "type": "line", "speaker": null,
+    "text": "Mawla joins on the second verse with a surprisingly good alto harmony. Grubwin, sighing deeply, mouths along to words he clearly knows by heart. You watch all of this happen." },
+
+  { "type": "line", "speaker": null,
+    "text": "It's ridiculous. It's also — somehow — kind of beautiful? The melody is actually genuinely nice. Vermia wrote it herself." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "—and RISE, Scatha, RISE from the deep / From loam and legend, from earthen sleep / We offer words, we offer rhyme / We call to you across all time—!" },
+
+  { "type": "music", "file": "clubroom_normal" },
+
+  { "type": "line", "speaker": null,
+    "text": "Silence. Then Dirtus hits the desk one final time." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "That's it. That's the one. That's the energy we need for the summoning." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "We are not doing a summoning." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Did you feel it, [player]? Did you feel the resonance?" },
+
+  { "type": "line", "speaker": null,
+    "text": "You think about it honestly. The melody did something. You're not sure what." },
+
+  { "type": "jump", "scene": "act1_scene4" }
+]

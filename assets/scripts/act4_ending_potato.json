@@ -1,0 +1,35 @@
+[
+  { "type": "bg",    "file": "clubroom_night" },
+  { "type": "music", "file": "scatha_theme" },
+  { "type": "char", "name": "Dirtus",  "expr": "triumphant", "pos": "center", "visible": true },
+  { "type": "char", "name": "Vermia",  "expr": "blessed",    "pos": "left",   "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "resigned",   "pos": "left",   "visible": false },
+  { "type": "char", "name": "Mawla",   "expr": "smug",       "pos": "right",  "visible": true },
+
+  { "type": "line", "speaker": null, "text": "It's the summer convergence. The lake. The floating Scathagram. The canoe." },
+  { "type": "line", "speaker": null, "text": "The ritual is going beautifully. The moon is out. The water is still. You are all on the floating platform and everything is going exactly according to slide twelve." },
+  { "type": "line", "speaker": null, "text": "And then." },
+  { "type": "line", "speaker": null, "text": "A potato floats by." },
+  { "type": "line", "speaker": "Grubwin", "text": "..." },
+
+  { "type": "char", "name": "Grubwin", "expr": "surprised", "pos": "left", "visible": true },
+
+  { "type": "line", "speaker": "Grubwin", "text": "Why is there a potato in this lake." },
+  { "type": "line", "speaker": "Dirtus",  "text": "I DID NOT PUT THAT THERE." },
+  { "type": "line", "speaker": "Vermia",  "text": "SCATHA." },
+  { "type": "line", "speaker": "Grubwin", "text": "IT'S JUST A POTATO—" },
+  { "type": "line", "speaker": "Mawla",   "text": "Where did it come from." },
+  { "type": "line", "speaker": "Dirtus",  "text": "There's a farm upriver. The potato is from the farm." },
+  { "type": "line", "speaker": "Grubwin", "text": "THANK YOU. Reasonable explanation." },
+  { "type": "line", "speaker": "Dirtus",  "text": "But it floated here DURING THE RITUAL." },
+  { "type": "line", "speaker": "Grubwin", "text": "River currents don't care about rituals—" },
+  { "type": "line", "speaker": "Vermia",  "text": "SCATHA BROUGHT THE POTATO BACK. HE REMEMBERED." },
+  { "type": "line", "speaker": "Mawla",   "text": "I'm keeping the potato." },
+  { "type": "line", "speaker": "Grubwin", "text": "Why." },
+  { "type": "line", "speaker": "Mawla",   "text": "For the story." },
+  { "type": "line", "speaker": null, "text": "You fish the potato out of the lake. It is a perfectly normal potato. It is also the funniest thing that has ever happened. You all agree to this." },
+  { "type": "line", "speaker": null, "text": "Mawla writes a poem about it later. It wins a small local poetry prize. She does not explain the context in her author's note." },
+  { "type": "line", "speaker": null, "text": "~ TRUE ENDING — THE POTATO RETURNS ~" },
+  { "type": "line", "speaker": null, "text": "Praise be to Scatha. And to the potato." },
+  { "type": "end" }
+]

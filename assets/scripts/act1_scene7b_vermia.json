@@ -1,0 +1,29 @@
+[
+  { "type": "line", "speaker": null,
+    "text": "You read a poem about fire that doesn't need permission. About someone who built a cathedral out of something no one else thought was real, and filled it with everyone they could find, and called it a literature club." },
+
+  { "type": "line", "speaker": null,
+    "text": "Vermia cries. Obviously." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "You can't respond until everyone finishes, Vermia." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "*very quietly* I'm not responding I'm just — leaking a little —" },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "That was a good poem, [player]." },
+
+  { "type": "line", "speaker": null,
+    "text": "After the exchange, during tea, Vermia finds you by the bookshelf." },
+
+  { "type": "char", "name": "Vermia", "expr": "surprised", "pos": "center", "visible": true },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "I want you to know that poem meant more to me than you probably intended it to. The bit about the cathedral. I've never — no one's ever put it that way. What I was doing. What this is." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Scatha definitely sent you. I just want that on record." },
+
+  { "type": "jump", "scene": "act1_scene8" }
+]

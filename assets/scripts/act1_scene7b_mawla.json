@@ -1,0 +1,41 @@
+[
+  { "type": "line", "speaker": null,
+    "text": "You read a poem about depth. About someone who has measured how far down things go and decided to live on the surface anyway — not because the depth scared them, but because the surface is where everyone else is." },
+
+  { "type": "line", "speaker": null,
+    "text": "Mawla listens. Her expression doesn't change. Her pen, which she'd been fidgeting with, goes still." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "*whispering to Grubwin* Is she okay?" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "*whispering back* I think so?" },
+
+  { "type": "line", "speaker": null,
+    "text": "After the exchange, during tea, Mawla comes to find you. She's holding her coffee cup in both hands." },
+
+  { "type": "char", "name": "Mawla", "expr": "actuallymoved", "pos": "right", "visible": true },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "The poem." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "Was it okay?" },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "It was accurate. Which is scarier than it being good, actually." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "You've been here three weeks." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "You're pretty legible." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "People usually don't try to read me." },
+
+  { "type": "line", "speaker": null,
+    "text": "She says it without complaint — just noting a fact. But something in the way she's looking at you suggests the fact matters." },
+
+  { "type": "jump", "scene": "act1_scene8" }
+]

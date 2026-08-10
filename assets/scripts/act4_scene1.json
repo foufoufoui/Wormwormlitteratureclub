@@ -1,0 +1,33 @@
+[
+  { "type": "bg",    "file": "clubroom_ritual" },
+  { "type": "music", "file": "scatha_theme" },
+  { "type": "char", "name": "Vermia",  "expr": "preaching", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "normal",    "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "confident", "pos": "center", "visible": false },
+
+  { "type": "line", "speaker": null, "text": "Act Four. End of the school year." },
+  { "type": "line", "speaker": null, "text": "The clubroom looks different now. New worm drawings on the string lights. Grubwin's clay figure has been carefully dusted. Someone added a small worm to the lineup — not Grubwin's work, nobody claims it. It appeared." },
+  { "type": "line", "speaker": null, "text": "Everyone has exams coming. The world outside is performing end-of-year energy. In here it's slower and more certain." },
+
+  { "type": "line", "speaker": "Vermia", "text": "Last regular meeting of the year. I want to say something before Dirtus announces whatever he's announcing." },
+  { "type": "line", "speaker": "Grubwin","text": "There's an announcement." },
+  { "type": "line", "speaker": "Dirtus", "text": "*from behind the door* I can hear you. I'm coming in thirty seconds." },
+
+  { "type": "char", "name": "Dirtus", "expr": "confident", "pos": "center", "visible": false },
+
+  { "type": "line", "speaker": "Vermia", "text": "Quick then. You — [player]. You came here not knowing what any of this was. And you stayed. And you wrote poems. And you changed what this place is." },
+  { "type": "line", "speaker": "Vermia", "text": "I founded this club twice. And I think this was the year it actually became real. Because of you, and the Relay, and the greenhouse, and the worm, and the second hymn, and all of it." },
+  { "type": "line", "speaker": "Grubwin","text": "Agreed." },
+  { "type": "line", "speaker": "Mawla",  "text": "Yes." },
+  { "type": "line", "speaker": null, "text": "The door opens. Dirtus enters. He has new slides. Of course." },
+  { "type": "char", "name": "Dirtus", "expr": "triumphant", "pos": "center", "visible": true },
+  { "type": "line", "speaker": "Dirtus", "text": "SUMMER CONVERGENCE PLAN. Slides one through twelve." },
+  { "type": "line", "speaker": "Grubwin","text": "Twelve slides." },
+  { "type": "line", "speaker": "Dirtus", "text": "It's a big summer." },
+
+  { "type": "choice", "options": [
+    { "label": "Let's hear the summer plan. All twelve slides.", "jump": "act4_ending_true" },
+    { "label": "First — I want to say something to everyone.", "jump": "act4_scene2" }
+  ]}
+]

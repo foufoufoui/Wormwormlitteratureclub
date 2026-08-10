@@ -1,0 +1,16 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Grubwin. Comment tu as vraiment atterri ici ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "..." },
+  { "type": "line", "speaker": "Grubwin", "text": "Vermia m'a coincé à la bibliothèque et a dit, je cite, 'Tu as des yeux réfléchis. Scatha a besoin d'yeux réfléchis dans le club.'" },
+  { "type": "line", "speaker": "Vermia", "text": "Il AVAIT des yeux réfléchis ! Il EN A !" },
+  { "type": "line", "speaker": "Grubwin", "text": "Je lisais. J'essayais juste de lire. Elle s'est assise en face de moi et a fait un pitch de dix minutes." },
+  { "type": "line", "speaker": "[player]", "text": "Et ça a marché ?" },
+  { "type": "line", "speaker": "Grubwin", "text": "Je n'avais rien d'autre à faire le vendredi. Et le pitch était — enfin, il était vraiment convaincant." },
+  { "type": "line", "speaker": "Vermia", "text": "TOUT était vrai." },
+  { "type": "line", "speaker": "Grubwin", "text": "Bref. Je suis venu une fois par politesse. Puis je suis revenu parce que les poèmes étaient vraiment intéressants. Puis c'est devenu une habitude. C'était il y a deux ans." },
+  { "type": "line", "speaker": "Grubwin", "text": "Ne dis pas ça à Vermia mais c'est probablement la meilleure partie de ma semaine." },
+  { "type": "line", "speaker": "Vermia", "text": "J'AI ENTENDU ÇA." },
+  { "type": "line", "speaker": "Grubwin", "text": "J'ai dit probablement." },
+  { "type": "line", "speaker": "Vermia", "text": "SCATHA A ENTENDU ET IL EST RAVI." },
+  { "type": "jump", "scene": "act1_scene6" }
+]

@@ -1,0 +1,12 @@
+[
+  { "type": "line", "speaker": "[player]", "text": "Je sais pas. Ça me semble mener vers quelque chose d'intense." },
+  { "type": "line", "speaker": "Dirtus", "text": "C'est l'objectif. Intense en bien, cela dit." },
+  { "type": "line", "speaker": "Mawla", "text": "[player] — tu peux fixer une limite. Si à un moment tu veux t'arrêter, tu le dis et le Relais s'arrête." },
+  { "type": "line", "speaker": "Dirtus", "text": "...Oui. Mawla a raison. Ça ne fonctionne que si tout le monde veut vraiment être là." },
+  { "type": "line", "speaker": "Vermia", "text": "Scatha ne veut pas d'adeptes réticents. Il est très clair là-dessus. Chapitre trois du Journal de Rimes." },
+  { "type": "line", "speaker": "Grubwin", "text": "C'est toi qui as écrit le Journal de Rimes." },
+  { "type": "line", "speaker": "Vermia", "text": "Inspiré par Scatha." },
+  { "type": "line", "speaker": "[player]", "text": "D'accord. Je vais essayer. Une semaine à la fois." },
+  { "type": "line", "speaker": "Dirtus", "text": "C'est tout ce qu'on demande." },
+  { "type": "jump", "scene": "act2_scene5" }
+]

@@ -1,0 +1,77 @@
+[
+  { "type": "bg",    "file": "clubroom_night" },
+  { "type": "music", "file": "tension" },
+
+  { "type": "char", "name": "Vermia",  "expr": "preaching", "pos": "center", "visible": true },
+  { "type": "char", "name": "Grubwin", "expr": "nervous",   "pos": "left",   "visible": true },
+  { "type": "char", "name": "Mawla",   "expr": "normal",    "pos": "right",  "visible": true },
+  { "type": "char", "name": "Dirtus",  "expr": "confident", "pos": "center", "visible": false },
+
+  { "type": "line", "speaker": null,
+    "text": "Two weeks later. The night before the Worm Moon." },
+
+  { "type": "line", "speaker": null,
+    "text": "You didn't plan to be in the school this late. Vermia texted an emergency meeting. The text read: 'EMERGENCY. DIRTUS HAS ESCALATED. Room 2-B. COME NOW. Scatha is watching.'" },
+
+  { "type": "line", "speaker": null,
+    "text": "The hallway lights are on their night setting — half-power, slightly orange. The clubroom door is ajar. You can hear voices." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I'm just saying — the maintenance tunnel specifically says no unauthorized access." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Scatha doesn't recognize the authority of the school board!" },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "I do! I go here!" },
+
+  { "type": "line", "speaker": null,
+    "text": "You push the door open. Dirtus is standing at the front of the room with his full foam-board presentation set up on the teacher's stand. He has added three new slides." },
+
+  { "type": "char", "name": "Dirtus", "expr": "confident", "pos": "center", "visible": true },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "[player]. Good. You're here. Tonight is a rehearsal." },
+
+  { "type": "line", "speaker": "[player]",
+    "text": "A rehearsal for what." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "Tomorrow night is the Worm Moon. I have secured access to the maintenance tunnel. Slide eight details the chalk Scathagram dimensions. We need to practice the hymn in the space so the acoustics are right." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "We are NOT going into the maintenance tunnel at night to practice for a worm summoning." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "We're just rehearsing." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "The rehearsal IS the trespassing." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "How did you secure access." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "The janitor's key cabinet was unlocked." },
+
+  { "type": "line", "speaker": "Mawla",
+    "text": "Dirtus." },
+
+  { "type": "line", "speaker": "Dirtus",
+    "text": "I returned the key immediately after making a copy." },
+
+  { "type": "line", "speaker": "Grubwin",
+    "text": "That's WORSE." },
+
+  { "type": "line", "speaker": "Vermia",
+    "text": "Okay wait — everyone stop. [player], you've been here long enough. You get a vote. Tomorrow night: do we do the summoning or not?" },
+
+  { "type": "line", "speaker": null,
+    "text": "Everyone looks at you." },
+
+  { "type": "choice", "options": [
+    { "label": "We should do it. Worst case it doesn't work and it's a good story.", "jump": "act1_scene8b_yes" },
+    { "label": "We shouldn't trespass. But maybe somewhere else?", "jump": "act1_scene8b_compromise" },
+    { "label": "This is a bad idea and I won't be part of it.", "jump": "act1_scene8b_no" }
+  ]}
+]

@@ -351,5 +351,28 @@ pub fn asset_candidates(rel: &str) -> Vec<String> {
     if let Ok(dir) = std::env::var("CARGO_MANIFEST_DIR") {
         out.push(format!("{dir}/assets/{rel}"));
     }
+    // Packaged installs: fall back to the folder next to the executable (and
+    // the macOS `.app` Resources folder) so the game works no matter where it
+    // is launched from.
+    if let Ok(exe) = std::env::current_exe() {
+        if let Some(dir) = exe.parent() {
+            out.push(format!("{}/assets/{rel}", dir.display()));
+            out.push(format!("{}/../Resources/assets/{rel}", dir.display()));
+        }
+    }
     out
+}
+
+#[cfg(test)]
+mod tests {
+    use super::asset_candidates;
+
+    #[test]
+    fn candidates_include_executable_dir() {
+        let exe = std::env::current_exe().expect("current exe");
+        let dir = exe.parent().expect("exe dir");
+        let rel = format!("{}/assets/scripts/x.json", dir.display());
+        let candidates = asset_candidates("scripts/x.json");
+        assert!(candidates.iter().any(|c| c == &rel));
+    }
 }

@@ -1,0 +1,188 @@
+name: Build installers
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: Build (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-22.04
+          - os: windows-latest
+          - os: macos-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cargo cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install Linux system deps
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            pkg-config \
+            libasound2-dev libpulse-dev libudev-dev \
+            libx11-dev libxi-dev libxcursor-dev libxrandr-dev \
+            libxinerama-dev libxext-dev \
+            libgl1-mesa-dev
+
+      - name: Add macOS Intel target (universal binary)
+        if: runner.os == 'macOS'
+        run: rustup target add x86_64-apple-darwin
+
+      - name: Build release (Windows / Linux)
+        if: runner.os != 'macOS'
+        shell: bash
+        run: cargo build --release
+
+      - name: Build release (macOS, both architectures)
+        if: runner.os == 'macOS'
+        shell: bash
+        run: |
+          cargo build --release --target aarch64-apple-darwin
+          cargo build --release --target x86_64-apple-darwin
+
+      - name: Get version
+        id: version
+        shell: bash
+        run: |
+          VER=$(sed -n 's/^version = "\([^"]*\)".*/\1/p' Cargo.toml | head -1)
+          echo "version=${VER:-1.0.0}" >> "$GITHUB_OUTPUT"
+
+      - name: Install NSIS (Windows)
+        if: runner.os == 'Windows'
+        uses: ikremniou/setup-nsis@v3
+
+      - name: Package Windows (portable zip + NSIS installer)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        env:
+          APP_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          New-Item -ItemType Directory -Force staging/WWLC | Out-Null
+          Copy-Item target/release/wwlc.exe staging/WWLC/
+          Copy-Item -Recurse assets staging/WWLC/assets
+          Compress-Archive -Path staging/WWLC -DestinationPath wwlc-windows.zip -Force
+          makensis -V2 -DAPP_VERSION="$env:APP_VERSION" packaging/windows/installer.nsi
+
+      - name: Package macOS (.app + .dmg)
+        if: runner.os == 'macOS'
+        shell: bash
+        env:
+          APP_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          APP="WWLC.app"
+          rm -rf staging "$APP"
+          mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
+          lipo -create \
+            target/aarch64-apple-darwin/release/wwlc \
+            target/x86_64-apple-darwin/release/wwlc \
+            -output "$APP/Contents/MacOS/wwlc"
+          cp -R assets "$APP/Contents/Resources/assets"
+          cat > "$APP/Contents/Info.plist" <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>CFBundleName</key>
+            <string>Worm Worm Literature Club</string>
+            <key>CFBundleDisplayName</key>
+            <string>Worm Worm Literature Club</string>
+            <key>CFBundleIdentifier</key>
+            <string>com.probablyfoui.wwlc</string>
+            <key>CFBundleVersion</key>
+            <string>$APP_VERSION</string>
+            <key>CFBundleShortVersionString</key>
+            <string>$APP_VERSION</string>
+            <key>CFBundleExecutable</key>
+            <string>wwlc</string>
+            <key>CFBundlePackageType</key>
+            <string>APPL</string>
+            <key>LSMinimumSystemVersion</key>
+            <string>10.13</string>
+            <key>NSHighResolutionCapable</key>
+            <true/>
+            <key>LSApplicationCategoryType</key>
+            <string>public.app-category.games</string>
+          </dict>
+          </plist>
+          PLIST
+          mkdir -p staging
+          cp -R "$APP" staging/
+          hdiutil create \
+            -volname "Worm Worm Literature Club" \
+            -srcfolder staging \
+            -ov \
+            -format UDZO \
+            wwlc-macos.dmg
+
+      - name: Package Linux (.deb + portable tar.gz)
+        if: runner.os == 'Linux'
+        shell: bash
+        env:
+          APP_VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          VER="$APP_VERSION"
+          ROOT="packaging/linux/root"
+          rm -rf "$ROOT" wwlc-linux staging
+
+          # Portable tar.gz: binary + assets in one folder.
+          mkdir -p wwlc-linux/wwlc
+          cp target/release/wwlc wwlc-linux/wwlc/wwlc
+          cp -R assets wwlc-linux/wwlc/assets
+          tar -czf wwlc-linux.tar.gz -C wwlc-linux wwlc
+
+          # .deb: binary + assets in /usr/share/wwlc, launched via /usr/bin.
+          mkdir -p "$ROOT/usr/share/wwlc" "$ROOT/usr/bin" "$ROOT/usr/share/applications"
+          cp target/release/wwlc "$ROOT/usr/share/wwlc/wwlc"
+          cp -R assets "$ROOT/usr/share/wwlc/assets"
+          ln -s ../share/wwlc/wwlc "$ROOT/usr/bin/wwlc"
+          cat > "$ROOT/usr/share/applications/wwlc.desktop" <<'EOF'
+          [Desktop Entry]
+          Type=Application
+          Name=Worm Worm Literature Club
+          Comment=Worm Worm Literature Club - a visual novel
+          Exec=/usr/bin/wwlc
+          Terminal=false
+          Categories=Game;
+          EOF
+          mkdir -p "$ROOT/DEBIAN"
+          cat > "$ROOT/DEBIAN/control" <<EOF
+          Package: wwlc
+          Version: $VER
+          Architecture: amd64
+          Maintainer: probablyfoui <$GITHUB_ACTOR@users.noreply.github.com>
+          Description: Worm Worm Literature Club
+           A Worm Worm Literature Club visual novel.
+          Section: games
+          Priority: optional
+          EOF
+          dpkg-deb --build --root-owner-group "$ROOT" wwlc-linux.deb
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: wwlc-${{ matrix.os }}
+          path: |
+            wwlc-windows.zip
+            wwlc-installer.exe
+            wwlc-macos.dmg
+            wwlc-linux.deb
+            wwlc-linux.tar.gz
+          if-no-files-found: warn

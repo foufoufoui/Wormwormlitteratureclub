@@ -240,7 +240,8 @@ fn opaque_bbox(img: &Image) -> Rect {
     )
 }
 
-/// Candidate `assets/characters` directories (cwd then CARGO_MANIFEST_DIR).
+/// Candidate `assets/characters` directories (cwd, CARGO_MANIFEST_DIR, then
+/// next to the executable for packaged installs).
 fn character_roots() -> Vec<std::path::PathBuf> {
     let mut out = Vec::new();
     if let Ok(cwd) = std::env::current_dir() {
@@ -248,6 +249,12 @@ fn character_roots() -> Vec<std::path::PathBuf> {
     }
     if let Ok(dir) = std::env::var("CARGO_MANIFEST_DIR") {
         out.push(std::path::PathBuf::from(dir).join("assets").join("characters"));
+    }
+    if let Ok(exe) = std::env::current_exe() {
+        if let Some(dir) = exe.parent() {
+            out.push(dir.join("assets").join("characters"));
+            out.push(dir.join("..").join("Resources").join("assets").join("characters"));
+        }
     }
     out
 }

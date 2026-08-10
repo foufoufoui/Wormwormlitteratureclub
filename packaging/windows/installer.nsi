@@ -3,6 +3,8 @@
 ;   makensis -DAPP_VERSION=1.0.0 packaging/windows/installer.nsi
 ;
 ; Expects the packaged files (wwlc.exe + assets/) under staging/WWLC/.
+; CI passes -DSTAGING_DIR=<absolute path> because `File` paths are resolved
+; relative to this script's directory otherwise.
 
 Unicode true
 SetCompressor /SOLID lzma
@@ -11,12 +13,20 @@ SetCompressor /SOLID lzma
   !define APP_VERSION "1.0.0"
 !endif
 
+!ifndef STAGING_DIR
+  !define STAGING_DIR "..\..\staging\WWLC"
+!endif
+
+!ifndef OUT_FILE
+  !define OUT_FILE "wwlc-installer.exe"
+!endif
+
 !define APP_NAME "Worm Worm Literature Club"
 !define APP_EXE "wwlc.exe"
 !define APP_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\WWLC"
 
 Name "${APP_NAME}"
-OutFile "wwlc-installer.exe"
+OutFile "${OUT_FILE}"
 InstallDir "$PROGRAMFILES64\${APP_NAME}"
 InstallDirRegKey HKLM "${APP_UNINST_KEY}" "InstallLocation"
 RequestExecutionLevel admin
@@ -34,7 +44,7 @@ RequestExecutionLevel admin
 
 Section "Install"
   SetOutPath "$INSTDIR"
-  File /r "staging\WWLC\*"
+  File /r "${STAGING_DIR}\*"
   WriteUninstaller "$INSTDIR\Uninstall.exe"
 
   CreateDirectory "$SMPROGRAMS\${APP_NAME}"

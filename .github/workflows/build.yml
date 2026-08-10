@@ -77,7 +77,7 @@ jobs:
           Copy-Item target/release/wwlc.exe staging/WWLC/
           Copy-Item -Recurse assets staging/WWLC/assets
           Compress-Archive -Path staging/WWLC -DestinationPath wwlc-windows.zip -Force
-          makensis -V2 -DAPP_VERSION="$env:APP_VERSION" packaging/windows/installer.nsi
+          makensis -V2 "-DAPP_VERSION=$env:APP_VERSION" "-DSTAGING_DIR=$env:GITHUB_WORKSPACE/staging/WWLC" "-DOUT_FILE=$env:GITHUB_WORKSPACE/wwlc-installer.exe" packaging/windows/installer.nsi
 
       - name: Package macOS (.app + .dmg)
         if: runner.os == 'macOS'

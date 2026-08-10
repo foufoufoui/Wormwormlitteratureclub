@@ -65,7 +65,7 @@ jobs:
 
       - name: Install NSIS (Windows)
         if: runner.os == 'Windows'
-        uses: ikremniou/setup-nsis@v3
+        uses: negrutiu/nsis-install@v2
 
       - name: Package Windows (portable zip + NSIS installer)
         if: runner.os == 'Windows'

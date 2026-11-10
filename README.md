@@ -2,7 +2,7 @@
 This project is not new at all and was started back in May 2026. It is now republished on a new github repository as there was a major change, I changed the programming language from Java to rust
 
 ## What is the game about though ?
-This game is a parody of Doki Doki literature club, filled with references from hypixel skyblock (Minecraft server).
+This game is a parody of Doki Doki literature club, filled with references from hypixel skyblock (Minecraft server). Lwk a private joke...
 
 ### More
 This game features multiple lines of story which means you'd have to finish it multiple times to see all possibilities.
